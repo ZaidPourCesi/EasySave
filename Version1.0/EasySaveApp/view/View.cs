@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using EasySaveApp.controller;
 using EasySaveApp.model;
-
+using DictionaryLangue;
 
 namespace EasySaveApp.view
 {
@@ -12,57 +12,67 @@ namespace EasySaveApp.view
         // Display on the start of the application welcoming the user
         public void Start()
         {
-            Console.WriteLine("|---|----------------------------------------------|---|");
-            Console.WriteLine("|---|         - Welcome to EasySave V1.0 -         |---|");
-            Console.WriteLine("|---|----------------------------------------------|---|");
+            Dictionary dico = new Dictionary();
+            Console.WriteLine("|---|--------------------------------------------------------|---|");
+            Console.WriteLine("|---|              - Welcome to EasySave V1.0 -              |---|");
+            Console.WriteLine("|---|--------------------------------------------------------|---|");
+            
         }
         // Display of the main menu with the different options possible to access (loading a backup, doing a backup, quiting)
-        public void MenuScreen()
+        public void MenuScreen(int numLang)
         {
-            Console.WriteLine("|---|----------------------------------------------|---|");
-            Console.WriteLine("|---|               - MAIN MENU -                  |---|");
-            Console.WriteLine("|---|----------------------------------------------|---|");
-            Console.WriteLine("|---|                                              |---|");
-            Console.WriteLine("|---|          0 : Quit EasySave                   |---|");
-            Console.WriteLine("|---|          1 : Load a backup job               |---|");
-            Console.WriteLine("|---|          2 : Create a backup job             |---|");
-            Console.WriteLine("|---|                                              |---|");
-            Console.WriteLine("|---|----------------------------------------------|---|");
-            Console.Write("Enter a number with your keyboard to the corresponding action you want (0/1/2) : ");
+            Dictionary dico = new Dictionary();
+            Console.WriteLine("|---|--------------------------------------------------------|---|");
+            Console.WriteLine("|---|                                                        |---|");
+            Console.WriteLine(dico.p2[numLang]);
+            Console.WriteLine("|---|--------------------------------------------------------|---|");
+            Console.WriteLine("|---|--------------------------------------------------------|---|");
+            Console.WriteLine(dico.p3[numLang]);
+            Console.WriteLine(dico.p4[numLang]);
+            Console.WriteLine(dico.p5[numLang]);
+            Console.WriteLine("|---|                                                        |---|");
+            Console.WriteLine("|---|--------------------------------------------------------|---|");
+            Console.Write(dico.p6[numLang]);
         }
         // Display of the submenu when choosing to create a backup job
-        public void SubMenu()
+        public void SubMenu(int numLang)
         {
-            Console.WriteLine("|---|----------------------------------------------|---|");
-            Console.WriteLine("|---|         - Backup job creating menu -         |---|");
-            Console.WriteLine("|---|----------------------------------------------|---|");
-            Console.WriteLine("|---|                                              |---|");
-            Console.WriteLine("|---|          0 : Quit backup menu                |---|");
-            Console.WriteLine("|---|          1 : Complete Backup                 |---|");
-            Console.WriteLine("|---|          2 : Differential Backup             |---|");
-            Console.WriteLine("|---|                                              |---|");
-            Console.WriteLine("|---|----------------------------------------------|---|");
-            Console.Write("Choose which type of backup you want (1/2) or go back to main menu (0) : ");
+            Dictionary dico = new Dictionary();
+            Console.WriteLine("|---|--------------------------------------------------------|---|");
+            Console.WriteLine("|---|                                                        |---|");
+            Console.WriteLine(dico.p7[numLang]);
+            Console.WriteLine("|---|--------------------------------------------------------|---|");
+            Console.WriteLine("|---|                                                        |---|");
+            Console.WriteLine(dico.p8[numLang]);
+            Console.WriteLine(dico.p9[numLang]);
+            Console.WriteLine(dico.p10[numLang]);
+            Console.WriteLine("|---|                                                        |---|");
+            Console.WriteLine("|---|--------------------------------------------------------|---|");
+            Console.Write(dico.p11[numLang]);
         }
         // Display of the first instruction when creating a backup (asking for the name of the backup)
-        public void NameScreen()
+        public void NameScreen(int numLang)
         {
-            Console.WriteLine("What will be the name of the backup job ? (type with keyboard, no special character) : ");
+            Dictionary dico = new Dictionary();
+            Console.WriteLine(dico.p12[numLang]);
         }
         // Display of the second instruction when creating a backup (asking for the path of the folder that you want to back up)
-        public void SourceRepositoryScreen()
+        public void SourceRepositoryScreen(int numLang)
         {
-            Console.WriteLine("What is the path to the folder you want to backup ? (type or drag and drop your folder into the console) : ");
+            Dictionary dico = new Dictionary();
+            Console.WriteLine(dico.p13[numLang]);
         }
         // Display of the third instruction when creating a backup (asking for the path of the folder that you want to back up
-        public void MirrorRepository()
+        public void MirrorRepository(int numLang)
         {
-            Console.WriteLine("What is the path to the mirror folder backup ? (type or drag and drop your folder into the console) : ");
+            Dictionary dico = new Dictionary();
+            Console.WriteLine(dico.p14[numLang]);
         }
         // Display of the fourth instruction when creating a backup (asking for the path of the folder that you want to back up
-        public void TargetRepository()
+        public void TargetRepository(int numLang)
         {
-            Console.WriteLine("What is the path where you want the backup to be saved ? (type or drag and drop your folder into the console) : ");
+            Dictionary dico = new Dictionary();
+            Console.WriteLine(dico.p15[numLang]);
         }
         // Display of an error occuring
         public void Error(string result)
@@ -70,15 +80,17 @@ namespace EasySaveApp.view
             Console.WriteLine(result);
         }
         // Display of the instruction of naming an already existing backup file
-        public void FileScreen()
+        public void FileScreen(int numLang)
         {
-            Console.Write("What is the name of the backup job ? (type with keyboard) : ");
+            Dictionary dico = new Dictionary();
+            Console.WriteLine(dico.p16[numLang]);
         }
         // Display of the instruction when you chose to load a backup file, listing all the existing backups
-        public void NameFileScreen()
+        public void NameFileScreen(int numLang)
         {
             Console.Clear();
-            Console.WriteLine("Showing the list of all your already existing backups : ");
+            Dictionary dico = new Dictionary();
+            Console.WriteLine(dico.p17[numLang]);
         }
     }
 }
