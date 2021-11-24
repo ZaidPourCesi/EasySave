@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Algorithme\\C#\\JOJO\\Version1.0\\EasySaveApp\\EasySaveApp.csproj": {}
+    "C:\\Algorithme\\C#\\LEGIGACLONE\\Version1.0\\EasySaveApp\\EasySaveApp.csproj": {}
   },
   "projects": {
-    "C:\\Algorithme\\C#\\JOJO\\Version1.0\\EasySaveApp\\EasySaveApp.csproj": {
+    "C:\\Algorithme\\C#\\LEGIGACLONE\\Version1.0\\EasySaveApp\\EasySaveApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Algorithme\\C#\\JOJO\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
+        "projectUniqueName": "C:\\Algorithme\\C#\\LEGIGACLONE\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
         "projectName": "EasySaveApp",
-        "projectPath": "C:\\Algorithme\\C#\\JOJO\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
+        "projectPath": "C:\\Algorithme\\C#\\LEGIGACLONE\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Algorithme\\C#\\JOJO\\Version1.0\\EasySaveApp\\obj\\",
+        "outputPath": "C:\\Algorithme\\C#\\LEGIGACLONE\\Version1.0\\EasySaveApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

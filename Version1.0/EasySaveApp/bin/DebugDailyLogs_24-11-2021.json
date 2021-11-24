@@ -30,3 +30,11 @@
   "transactionTime": "00:00:00.01",
   "totalSize": 1831
 }
+{
+  "sourceRepository": "C:\\Algorithme\\C#\\ABACKUP",
+  "targetRepository": "C:\\Algorithme\\C#\\ASAVELOC",
+  "nameToSave": "vagin",
+  "backupDate": "24/11/2021 15:33:53",
+  "transactionTime": "00:00:00.09",
+  "totalSize": 2613
+}

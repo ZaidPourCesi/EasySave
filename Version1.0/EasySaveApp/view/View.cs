@@ -60,7 +60,7 @@ namespace EasySaveApp.view
             Console.WriteLine("What is the path to the mirror folder backup ? (type or drag and drop your folder into the console) : ");
         }
         // Display of the fourth instruction when creating a backup (asking for the path of the folder that you want to back up
-        public void RepositoryDestination()
+        public void TargetRepository()
         {
             Console.WriteLine("What is the path where you want the backup to be saved ? (type or drag and drop your folder into the console) : ");
         }
