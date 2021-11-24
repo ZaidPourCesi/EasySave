@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ST+j+H8qwH/bfg0kAe16UCtl/Uy9cPQTaUGnycHn73RQeRRoz8AtDzc6kG28St4iAXo2BybLVn+TJr2qYafg6A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\zidou\\OneDrive\\Desktop\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zidou\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
