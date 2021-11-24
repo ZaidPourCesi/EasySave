@@ -1,9 +1,0 @@
-Groupe de projet :
-- SANCHEZ Aldryck ;
-- EL GHARIAOUI Zaid ;
-- MENOT Lucas ;
-
-Dans ce dossier se trouve 3 diagrammes UML de version 1 :
-- Un d'activité ;
-- Un de cas d'utilisation ;
-- Un de classe ;
