@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Algorithme\\C#\\THEFINALTEST\\Version1.0\\EasySaveApp\\EasySaveApp.csproj": {}
+    "C:\\Algorithme\\C#\\THEFINALTEST\\Version1.0\\EasySaveApp\\EasySaveV1.csproj": {}
   },
   "projects": {
-    "C:\\Algorithme\\C#\\THEFINALTEST\\Version1.0\\EasySaveApp\\EasySaveApp.csproj": {
+    "C:\\Algorithme\\C#\\THEFINALTEST\\Version1.0\\EasySaveApp\\EasySaveV1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Algorithme\\C#\\THEFINALTEST\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
-        "projectName": "EasySaveApp",
-        "projectPath": "C:\\Algorithme\\C#\\THEFINALTEST\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
+        "projectUniqueName": "C:\\Algorithme\\C#\\THEFINALTEST\\Version1.0\\EasySaveApp\\EasySaveV1.csproj",
+        "projectName": "EasySaveV1",
+        "projectPath": "C:\\Algorithme\\C#\\THEFINALTEST\\Version1.0\\EasySaveApp\\EasySaveV1.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
         "outputPath": "C:\\Algorithme\\C#\\THEFINALTEST\\Version1.0\\EasySaveApp\\obj\\",
         "projectStyle": "PackageReference",

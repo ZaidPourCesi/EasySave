@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EasySaveApp.model
+namespace EasySaveV1.model
 {
     // FileComparison is the class used for the differential backup
     // It uses Equality Comparer interface for the System.IO.FileInfo class that is in System.Collections.Generic library.

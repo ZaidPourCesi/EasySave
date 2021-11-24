@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Diagnostics;
-using EasySaveApp.controller;
+using EasySaveV1.controller;
 
-namespace EasySaveApp
+namespace EasySaveV1
 {
     class Program
     {

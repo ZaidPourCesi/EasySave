@@ -1,12 +1,12 @@
 using System;
 using System.IO;
 using System.Diagnostics;
-using EasySaveApp.model;
-using EasySaveApp.view;
+using EasySaveV1.model;
+using EasySaveV1.view;
 using Newtonsoft.Json;
 using DictionaryLangue;
 
-namespace EasySaveApp.controller
+namespace EasySaveV1.controller
 {
     class Controller
     {
@@ -37,7 +37,7 @@ namespace EasySaveApp.controller
             while (!isValid) //Loop to allow verification of the path
             {
                 sourceRepository = Console.ReadLine(); //Retrieving user input
-                if (Directory.Exists(sourceRepository.Replace("\"", ""))) //Remplace \ for ""
+                if (Directory.Exists(sourceRepository.Replace("\"", ""))) //Remplace '"' for ' '
                 {
                     isValid = true;
                 }
@@ -58,7 +58,7 @@ namespace EasySaveApp.controller
             while (!isValid)//Loop to allow verification of the path
             {
                 targetRepository = Console.ReadLine();// Retrieving user input
-                if (Directory.Exists(targetRepository.Replace("\"", "")))  //Remplace \ for ""
+                if (Directory.Exists(targetRepository.Replace("\"", "")))  //Remplace '"' for ' '
                 {
                     isValid = true;
                 }

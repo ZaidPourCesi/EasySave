@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 using System.Linq;
 using System.Diagnostics;
 
-namespace EasySaveApp.model
+namespace EasySaveV1.model
 {
     class Model
     {

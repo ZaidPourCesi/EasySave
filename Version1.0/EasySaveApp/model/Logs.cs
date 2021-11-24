@@ -4,7 +4,7 @@ using System.Text;
 using System.Text.Json;
 
 
-namespace EasySaveApp.model
+namespace EasySaveV1.model
 { 
     // The class log is used to take note of few informations about the backups :
     // target path, source path, name, date, duration and size

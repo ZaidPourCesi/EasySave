@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EasySaveApp.model
+namespace EasySaveV1.model
 {
     public class Backup
     {

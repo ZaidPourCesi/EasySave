@@ -1,0 +1,16 @@
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveV1.exe
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveV1.deps.json
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveV1.runtimeconfig.json
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveV1.runtimeconfig.dev.json
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveV1.dll
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveV1.pdb
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveV1.csproj.AssemblyReference.cache
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveV1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveV1.AssemblyInfoInputs.cache
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveV1.AssemblyInfo.cs
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveV1.csproj.CoreCompileInputs.cache
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveV1.csproj.CopyComplete
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveV1.dll
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveV1.pdb
+C:\Algorithme\C#\THEFINALTEST\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveV1.genruntimeconfig.cache

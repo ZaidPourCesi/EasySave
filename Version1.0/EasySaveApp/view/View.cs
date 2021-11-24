@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using EasySaveApp.controller;
-using EasySaveApp.model;
+using EasySaveV1.controller;
+using EasySaveV1.model;
 using DictionaryLangue;
 
-namespace EasySaveApp.view
+namespace EasySaveV1.view
 {
     class View
     {

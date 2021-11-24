@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u164eixrCWyPLvK2J0nj+0yVd98T2KNzKkLc15caQMcOSAKoXzTdb+bwwYSv5SQsKopqDhUqtV4e+Z8+Fqc5ag==",
+  "dgSpecHash": "G6vbDdkEurJ4J28r/cCaxo3q3FupN6487EJFe+BGz+79CsJSQSolkom+dgM3+i1l5PH3O5WpQMUgJNQmOudAew==",
   "success": true,
-  "projectFilePath": "C:\\Algorithme\\C#\\LEGIGACLONE\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
+  "projectFilePath": "C:\\Algorithme\\C#\\THEFINALTEST\\Version1.0\\EasySaveApp\\EasySaveV1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucas\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
