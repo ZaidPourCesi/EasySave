@@ -36,7 +36,7 @@ namespace EasySaveV1.model
         //---------------------------------------------------------------------------------------------------------------------------------------------------------------
         public Model()
         {
-            userMenuInput =  " ";
+            userMenuInput = " ";
 
             if (!Directory.Exists(backupListFile)) //Check if the folder is created
             {
@@ -64,7 +64,7 @@ namespace EasySaveV1.model
 
             if (!dir.Exists) //Check if the file is present
             {
-                 throw new DirectoryNotFoundException("ERROR : Directory Not Found ! " + inputpathsave);
+                throw new DirectoryNotFoundException("ERROR : Directory Not Found ! " + inputpathsave);
             }
 
             DirectoryInfo[] dirs = dir.GetDirectories();
@@ -85,10 +85,10 @@ namespace EasySaveV1.model
                     totalSize += file.Length;
                     nbfilesmax++;
                 }
-                foreach(DirectoryInfo subdir in dirs) // Loop to allow calculation of subfiles and subfolder size
+                foreach (DirectoryInfo subdir in dirs) // Loop to allow calculation of subfiles and subfolder size
                 {
                     FileInfo[] Maxfiles = subdir.GetFiles();
-                    foreach(FileInfo file in Maxfiles)
+                    foreach (FileInfo file in Maxfiles)
                     {
                         totalSize += file.Length;
                         nbfilesmax++;
@@ -98,11 +98,11 @@ namespace EasySaveV1.model
             }
 
             //Loop that allows to copy the files to make the backup
-            foreach (FileInfo file in files) 
+            foreach (FileInfo file in files)
             {
                 string tempPath = Path.Combine(inputDestToSave, file.Name);
 
-                if(size > 0)
+                if (size > 0)
                 {
                     progs = ((float)size / totalSize) * 100;
                 }
@@ -125,13 +125,13 @@ namespace EasySaveV1.model
             }
 
             // If copying subdirectories, copy them and their contents to new location.
-            if (copyDir)  
+            if (copyDir)
             {
                 foreach (DirectoryInfo subdir in dirs)
                 {
                     string tempPath = Path.Combine(inputDestToSave, subdir.Name);
                     CompleteSave(subdir.FullName, tempPath, copyDir, true);
-                }   
+                }
             }
             //System which allows the values ​​to be reset to 0 at the end of the backup
             LogsState.totalSize = totalSize;
@@ -233,7 +233,7 @@ namespace EasySaveV1.model
 
                 foreach (var obj in list) // Loop to allow filling of the JSON file
                 {
-                    if(obj.nameToSave == this.nameStateFile) //Verification so that the name in the json is the same as that of the backup
+                    if (obj.nameToSave == this.nameStateFile) //Verification so that the name in the json is the same as that of the backup
                     {
                         obj.sourceRepository = this.LogsState.sourceRepository;
                         obj.targetRepository = this.LogsState.targetRepository;
@@ -262,7 +262,7 @@ namespace EasySaveV1.model
         {
             Stopwatch stopwatch = new Stopwatch();
             string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}.{3:00}", timeTransfert.Hours, timeTransfert.Minutes, timeTransfert.Seconds, timeTransfert.Milliseconds / 10); //Formatting the stopwatch for better visibility in the file
-            
+
             Logs datalogs = new Logs //Apply the retrieved values ​​to their classes
             {
                 nameToSave = savename,
@@ -281,11 +281,11 @@ namespace EasySaveV1.model
 
             stopwatch.Reset(); // Reset of stopwatch
         }
-       
+
         public void AddSave(Backup backup) //Function that creates a backup job
         {
             List<Backup> backupList = new List<Backup>();
-            this.serializeObj = null; 
+            this.serializeObj = null;
 
             if (!File.Exists(backupListFile)) //Checking if the file exists
             {
@@ -297,7 +297,7 @@ namespace EasySaveV1.model
             if (jsonString.Length != 0) //Checking the contents of the json file is empty or not
             {
                 Backup[] list = JsonConvert.DeserializeObject<Backup[]>(jsonString); //Derialization of the json file
-                foreach ( var obj in list) //Loop to add the information in the json
+                foreach (var obj in list) //Loop to add the information in the json
                 {
                     backupList.Add(obj);
                 }
@@ -356,14 +356,14 @@ namespace EasySaveV1.model
                 Backup[] list = JsonConvert.DeserializeObject<Backup[]>(jsonString);  //Derialization of the json file
                 foreach (var obj in list)
                 {
-                    if(obj.nameToSave == backupname) //Check to have the correct name of the backup
+                    if (obj.nameToSave == backupname) //Check to have the correct name of the backup
                     {
                         backup = new Backup(obj.nameToSave, obj.sourceRepository, obj.targetRepository, obj.type, obj.mirrorRepository); //Function that allows you to retrieve information about the backup
                     }
                 }
             }
 
-            if(backup.type == 1) //If the type is 1, it means it's a full backup
+            if (backup.type == 1) //If the type is 1, it means it's a full backup
             {
                 nameStateFile = backup.nameToSave;
                 CompleteSave(backup.sourceRepository, backup.targetRepository, true, false); //Calling the function to run the full backup

@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Version1.0"
+    "\\Version1.0",
+    "\\Version1.0\\EasySaveApp"
   ],
-  "SelectedNode": "\\Version1.0\\UML",
+  "SelectedNode": "\\Version1.0\\EasySaveApp\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

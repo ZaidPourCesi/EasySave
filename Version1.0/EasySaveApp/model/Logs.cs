@@ -5,7 +5,7 @@ using System.Text.Json;
 
 
 namespace EasySaveV1.model
-{ 
+{
     // The class log is used to take note of few informations about the backups :
     // target path, source path, name, date, duration and size
     class Logs
@@ -18,4 +18,3 @@ namespace EasySaveV1.model
         public long totalSize { get; set; } // Declaration of the setter/getter for the total size of the file
     }
 }
-

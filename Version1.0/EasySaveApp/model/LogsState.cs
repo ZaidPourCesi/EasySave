@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EasySaveV1.model
 {
-   class LogsState
+    class LogsState
     {
         // The class LogsState is used to take note of few informations about the backups to write it into a JSON file :
         // target path, source path, name, date, duration, state,  and size

@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Diagnostics;
 using EasySaveV1.model;
@@ -22,7 +22,7 @@ namespace EasySaveV1.controller
             view.Start(); //Function call
 
             Dictionary dico = new Dictionary();
-            numLang=dico.ChooseLanguage();
+            numLang = dico.ChooseLanguage();
 
             model.userMenuInput = Menu(numLang); //Function call /*/************************************************************************************
 
@@ -52,7 +52,7 @@ namespace EasySaveV1.controller
         private string GetTargetDir() //Function to retrieve the input from the destination repesetory
         {
             Dictionary dico = new Dictionary();
-            string  targetRepository= "";
+            string targetRepository = "";
             bool isValid = false;
 
             while (!isValid)//Loop to allow verification of the path
@@ -144,10 +144,10 @@ namespace EasySaveV1.controller
                 }
                 catch
                 {
-                   Console.Clear();//Console cleaning
+                    Console.Clear();//Console cleaning
                 }
 
-            }  
+            }
 
             return "";
         }
@@ -205,4 +205,3 @@ namespace EasySaveV1.controller
         }
     }
 }
-

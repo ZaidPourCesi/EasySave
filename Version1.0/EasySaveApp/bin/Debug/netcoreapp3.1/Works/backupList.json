@@ -1,3 +1,9 @@
 [
-  
+  {
+    "sourceRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\test\\source",
+    "targetRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\test\\target",
+    "type": 1,
+    "mirrorRepository": "",
+    "nameToSave": "rr"
+  }
 ]

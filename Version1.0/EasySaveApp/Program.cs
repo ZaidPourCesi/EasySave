@@ -8,7 +8,7 @@ namespace EasySaveV1
     {
         static void Main(string[] args)
         {
-           Controller controller = new Controller(); //Instantiating an object
+            Controller controller = new Controller(); //Instantiating an object
         }
     }
 }

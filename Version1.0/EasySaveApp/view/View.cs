@@ -16,7 +16,7 @@ namespace EasySaveV1.view
             Console.WriteLine("|---|--------------------------------------------------------|---|");
             Console.WriteLine("|---|              - Welcome to EasySave V1.0 -              |---|");
             Console.WriteLine("|---|--------------------------------------------------------|---|");
-            
+
         }
         // Display of the main menu with the different options possible to access (loading a backup, doing a backup, quiting)
         public void MenuScreen(int numLang)

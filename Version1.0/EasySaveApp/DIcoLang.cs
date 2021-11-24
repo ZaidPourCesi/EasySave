@@ -23,7 +23,7 @@ namespace DictionaryLangue
         public string[] p7 = { "|---|              - Backup job creating menu -              |---|", "|---|      - Menu de création de tâche de sauvegarde -       |---|" };
         public string[] p8 = { "|---|                 0 : Quit backup menu                   |---|", "|---|          0 : Quitter le menu de sauvegarde             |---|" };
         public string[] p9 = { "|---|                  1 : Complete Backup                   |---|", "|---|               1 : Sauvegarde complète                  |---|" };
-        public string[] p10 = {"|---|                2 : Differential Backup                 |---|","|---|            2 : Sauvegarde différentielle               |---|" };
+        public string[] p10 = { "|---|                2 : Differential Backup                 |---|", "|---|            2 : Sauvegarde différentielle               |---|" };
         public string[] p11 = { " Choose which type of backup you want (1/2) or go back to main menu (0) : ", " Choisissez le type de sauvegarde que vous souhaitez (1/2) ou revenez au menu principal (0) : " };
         public string[] p12 = { " What will be the name of the backup job ? (type with keyboard, no special character) : ", " Quel sera le nom de la tâche de sauvegarde ? (tapez au clavier, pas de caractère spécial) : " };
         public string[] p13 = { " What is the path to the folder you want to backup ? (type or drag and drop your folder into the console) : ", " Quel est le chemin du dossier que vous souhaitez sauvegarder ? (tapez ou glissez-déposez votre dossier dans la console) : " };
@@ -31,8 +31,8 @@ namespace DictionaryLangue
         public string[] p15 = { " What is the path where you want the backup to be saved ? (type or drag and drop your folder into the console) : ", " Quel est le chemin où vous voulez que la sauvegarde soit enregistrée ? (tapez ou glissez-déposez votre dossier dans la console) : " };
         public string[] p16 = { " What is the name of the backup job ? (type with keyboard) : ", " Quel est le nom de la tâche de sauvegarde ? (taper au clavier) : " };
         public string[] p17 = { " Showing the list of all your already existing backups : ", " Affichage de la liste de toutes les sauvegardes existantes : " };
-        
-        
+
+
         public string[] p18 = { "Incorect Path", "Chemin d'accès incorrecte" };
         public string[] p19 = { "You already have 5 backups. Please delete a backup job so you can create another one ", " Vous avez déjà 5 sauvegardes. Veuillez en supprimer une pour pourvoir en créer une autre " };
         public string[] p20 = { "  ", "  " };

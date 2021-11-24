@@ -61,7 +61,7 @@
   },
   {
     "nameToSave": null,
-    "backupDate": "24/11/2021 17:02:30",
+    "backupDate": "24/11/2021 15:43:42",
     "saveState": false,
     "sourceRepository": null,
     "targetRepository": null,
@@ -73,7 +73,7 @@
   },
   {
     "nameToSave": null,
-    "backupDate": "24/11/2021 17:05:04",
+    "backupDate": "24/11/2021 15:49:34",
     "saveState": false,
     "sourceRepository": null,
     "targetRepository": null,
@@ -85,7 +85,31 @@
   },
   {
     "nameToSave": null,
-    "backupDate": "24/11/2021 17:12:55",
+    "backupDate": "24/11/2021 16:47:44",
+    "saveState": false,
+    "sourceRepository": null,
+    "targetRepository": null,
+    "totalRepository": 0.0,
+    "totalSize": 0,
+    "progress": 0.0,
+    "repositoryRest": 0,
+    "totalSizeLeft": 0
+  },
+  {
+    "nameToSave": null,
+    "backupDate": "24/11/2021 16:48:35",
+    "saveState": false,
+    "sourceRepository": null,
+    "targetRepository": null,
+    "totalRepository": 0.0,
+    "totalSize": 0,
+    "progress": 0.0,
+    "repositoryRest": 0,
+    "totalSizeLeft": 0
+  },
+  {
+    "nameToSave": null,
+    "backupDate": "24/11/2021 18:07:21",
     "saveState": false,
     "sourceRepository": null,
     "targetRepository": null,

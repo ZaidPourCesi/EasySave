@@ -33,32 +33,40 @@
 {
   "sourceRepository": "C:\\Algorithme\\C#\\ABACKUP",
   "targetRepository": "C:\\Algorithme\\C#\\ASAVELOC",
-  "nameToSave": "pelerin",
+  "nameToSave": "vagin",
   "backupDate": "24/11/2021 15:33:53",
   "transactionTime": "00:00:00.09",
   "totalSize": 2613
 }
 {
-  "sourceRepository": "C:\\Algorithme\\C#\\ABACKUP",
-  "targetRepository": "C:\\Algorithme\\C#\\ASAVELOC",
-  "nameToSave": "zename",
-  "backupDate": "24/11/2021 17:02:45",
-  "transactionTime": "00:00:00.38",
-  "totalSize": 2613
+  "sourceRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\test\\source",
+  "targetRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\test\\target",
+  "nameToSave": "yoyop",
+  "backupDate": "24/11/2021 15:49:41",
+  "transactionTime": "00:00:00.02",
+  "totalSize": 4
 }
 {
-  "sourceRepository": "C:\\Algorithme\\C#\\ABACKUP",
-  "targetRepository": "C:\\Algorithme\\C#\\ASAVELOC",
-  "nameToSave": "lenom",
-  "backupDate": "24/11/2021 17:05:18",
-  "transactionTime": "00:00:00.04",
-  "totalSize": 2613
+  "sourceRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\test\\source",
+  "targetRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\test\\target",
+  "nameToSave": "gdf",
+  "backupDate": "24/11/2021 16:47:51",
+  "transactionTime": "00:00:00.18",
+  "totalSize": 4
 }
 {
-  "sourceRepository": "C:\\Algorithme\\C#\\ABACKUP",
-  "targetRepository": "C:\\Algorithme\\C#\\ASAVELOC",
-  "nameToSave": "pelerine",
-  "backupDate": "24/11/2021 17:13:11",
-  "transactionTime": "00:00:00.03",
-  "totalSize": 2613
+  "sourceRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\test\\source",
+  "targetRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\test\\target",
+  "nameToSave": "kjhh",
+  "backupDate": "24/11/2021 16:48:47",
+  "transactionTime": "00:00:00.02",
+  "totalSize": 4
+}
+{
+  "sourceRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\test\\source",
+  "targetRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\test\\target",
+  "nameToSave": "rr",
+  "backupDate": "24/11/2021 18:07:27",
+  "transactionTime": "00:00:00.13",
+  "totalSize": 4
 }
