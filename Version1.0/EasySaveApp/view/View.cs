@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
 using System.Text;
 using EasySaveApp.controller;
@@ -9,36 +9,39 @@ namespace EasySaveApp.view
 {
     class View
     {
-        //Display on the console a welcome message
         public void Start()
         {
-            Console.WriteLine("****************************************************");
-            Console.WriteLine("***            Welcome to EasySave               ***");
-            Console.WriteLine("****************************************************");
+            Console.WriteLine("|---|----------------------------------------------|---|");
+            Console.WriteLine("|---|         - Welcome to EasySave V1.0 -         |---|");
+            Console.WriteLine("|---|----------------------------------------------|---|");
         }
-        //Display on the console the menu
+        // Display of the main menu with the different options possible to access (loading a backup, doing a backup, quiting)
         public void MenuScreen()
         {
-            Console.WriteLine("****************************************************");
-            Console.WriteLine("***                    Menu                      ***");
-            Console.WriteLine("****************************************************");
-            Console.WriteLine("***  0. Exit                                     ***");
-            Console.WriteLine("***  1. Open a backup job                        ***");
-            Console.WriteLine("***  2. Create a backup job                      ***");
-            Console.WriteLine("****************************************************");
-            Console.Write("Please enter the menu number : ");
+            Console.WriteLine("|---|----------------------------------------------|---|");
+            Console.WriteLine("|---|               - MAIN MENU -                  |---|");
+            Console.WriteLine("|---|----------------------------------------------|---|");
+            Console.WriteLine("|---|                                              |---|");
+            Console.WriteLine("|---|          0 : Quit EasySave                   |---|");
+            Console.WriteLine("|---|          1 : Load a backup job               |---|");
+            Console.WriteLine("|---|          2 : Create a backup job             |---|");
+            Console.WriteLine("|---|                                              |---|");
+            Console.WriteLine("|---|----------------------------------------------|---|");
+            Console.Write("Enter a number with your keyboard to the corresponding action you want (0/1/2) : ");
         }
-        //Display on the console the menu of backup jobs
+        // Display of the submenu when choosing to create a backup job
         public void SubMenu()
         {
-            Console.WriteLine("****************************************************");
-            Console.WriteLine("***                 Backup Jobs                  ***");
-            Console.WriteLine("****************************************************");
-            Console.WriteLine("***  0. Exit                                     ***");
-            Console.WriteLine("***  1. Complete Save                            ***");
-            Console.WriteLine("***  2. Differential Save                        ***");
-            Console.WriteLine("****************************************************");
-            Console.Write("Please enter the menu number : ");
+            Console.WriteLine("|---|----------------------------------------------|---|");
+            Console.WriteLine("|---|         - Backup job creating menu -         |---|");
+            Console.WriteLine("|---|----------------------------------------------|---|");
+            Console.WriteLine("|---|                                              |---|");
+            Console.WriteLine("|---|          0 : Quit backup menu                |---|");
+            Console.WriteLine("|---|          1 : Complete Backup                 |---|");
+            Console.WriteLine("|---|          2 : Differential Backup             |---|");
+            Console.WriteLine("|---|                                              |---|");
+            Console.WriteLine("|---|----------------------------------------------|---|");
+            Console.Write("Choose which type of backup you want (1/2) or go back to main menu (0) : ");
         }
         //Display on the console when you enter the name of the save
         public void NameScreen()

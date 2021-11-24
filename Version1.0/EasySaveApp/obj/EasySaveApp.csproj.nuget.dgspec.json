@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zidou\\OneDrive\\Desktop\\Version1.0\\EasySaveApp\\EasySaveApp.csproj": {}
+    "C:\\Cesi\\prog sys\\ProjetPRogSystem\\Version1.0\\EasySaveApp\\EasySaveApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zidou\\OneDrive\\Desktop\\Version1.0\\EasySaveApp\\EasySaveApp.csproj": {
+    "C:\\Cesi\\prog sys\\ProjetPRogSystem\\Version1.0\\EasySaveApp\\EasySaveApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zidou\\OneDrive\\Desktop\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
+        "projectUniqueName": "C:\\Cesi\\prog sys\\ProjetPRogSystem\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
         "projectName": "EasySaveApp",
-        "projectPath": "C:\\Users\\zidou\\OneDrive\\Desktop\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
+        "projectPath": "C:\\Cesi\\prog sys\\ProjetPRogSystem\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
         "packagesPath": "C:\\Users\\zidou\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zidou\\OneDrive\\Desktop\\Version1.0\\EasySaveApp\\obj\\",
+        "outputPath": "C:\\Cesi\\prog sys\\ProjetPRogSystem\\Version1.0\\EasySaveApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

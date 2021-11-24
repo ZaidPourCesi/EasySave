@@ -40,3 +40,19 @@ C:\Users\zidou\OneDrive\Desktop\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\E
 C:\Users\zidou\OneDrive\Desktop\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.dll
 C:\Users\zidou\OneDrive\Desktop\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.pdb
 C:\Users\zidou\OneDrive\Desktop\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.genruntimeconfig.cache
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveApp.exe
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveApp.deps.json
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveApp.runtimeconfig.json
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveApp.runtimeconfig.dev.json
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveApp.dll
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveApp.pdb
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.csproj.AssemblyReference.cache
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.AssemblyInfoInputs.cache
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.AssemblyInfo.cs
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.csproj.CoreCompileInputs.cache
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.csproj.CopyComplete
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.dll
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.pdb
+C:\Cesi\prog sys\ProjetPRogSystem\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.genruntimeconfig.cache
