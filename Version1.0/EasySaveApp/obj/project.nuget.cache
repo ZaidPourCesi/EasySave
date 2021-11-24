@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "h84BZyOF39m+zyf8kawU0NdlWx3zvJXIX4EzC2EbwyCVZE/vY3tTM9lNNFBN8UzUfgim5az5jONmAta2Jd5exQ==",
+  "dgSpecHash": "xkkMV5tXhqM7+PdNlGeG8WNzfKhJe6RSkrYtecMhGK4M5zX5B1dbu4VvZ5o4XRoAd8I40yMwD3q946QrURujCA==",
   "success": true,
-  "projectFilePath": "C:\\Cesi\\prog sys\\ProjetPRogSystem\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
+  "projectFilePath": "C:\\Algorithme\\C#\\JOJO\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\zidou\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\Lucas\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }

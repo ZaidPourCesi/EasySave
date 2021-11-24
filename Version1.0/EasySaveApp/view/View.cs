@@ -1,4 +1,4 @@
-﻿    using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 using EasySaveApp.controller;
@@ -9,6 +9,7 @@ namespace EasySaveApp.view
 {
     class View
     {
+        // Display on the start of the application welcoming the user
         public void Start()
         {
             Console.WriteLine("|---|----------------------------------------------|---|");
@@ -43,41 +44,41 @@ namespace EasySaveApp.view
             Console.WriteLine("|---|----------------------------------------------|---|");
             Console.Write("Choose which type of backup you want (1/2) or go back to main menu (0) : ");
         }
-        //Display on the console when you enter the name of the save
+        // Display of the first instruction when creating a backup (asking for the name of the backup)
         public void NameScreen()
         {
-            Console.WriteLine("Please enter the name of your backup : ");
+            Console.WriteLine("What will be the name of the backup job ? (type with keyboard, no special character) : ");
         }
-        //Display on the console when you have to enter the path of the folder that you want to back up
+        // Display of the second instruction when creating a backup (asking for the path of the folder that you want to back up)
         public void SourceRepositoryScreen()
         {
-            Console.WriteLine("Please enter the path of the folder you want to back up. [ DRAG AND DROP YOUR FOLDER ] :");
+            Console.WriteLine("What is the path to the folder you want to backup ? (type or drag and drop your folder into the console) : ");
         }
-        //Display on the console when you have to enter the path of the folder that you want to back up
-        public void TargetRepository()
-        {
-            Console.WriteLine("Please enter the destination path for the backup. [ DRAG AND DROP YOUR FOLDER ] :");
-        }
-
+        // Display of the third instruction when creating a backup (asking for the path of the folder that you want to back up
         public void MirrorRepository()
         {
-            Console.WriteLine("Please enter the path of the folder mirror backup. [ DRAG AND DROP YOUR FOLDER ] :");
+            Console.WriteLine("What is the path to the mirror folder backup ? (type or drag and drop your folder into the console) : ");
         }
-        //Display on the console an error message
+        // Display of the fourth instruction when creating a backup (asking for the path of the folder that you want to back up
+        public void RepositoryDestination()
+        {
+            Console.WriteLine("What is the path where you want the backup to be saved ? (type or drag and drop your folder into the console) : ");
+        }
+        // Display of an error occuring
         public void Error(string result)
         {
             Console.WriteLine(result);
         }
-        //Display on the console when you have to enter the name of backup
+        // Display of the instruction of naming an already existing backup file
         public void FileScreen()
         {
-            Console.Write("Please enter the name of your backup : ");
+            Console.Write("What is the name of the backup job ? (type with keyboard) : ");
         }
-        //Display on the console when you have to enter the name of backups
+        // Display of the instruction when you chose to load a backup file, listing all the existing backups
         public void NameFileScreen()
         {
             Console.Clear();
-            Console.WriteLine("Here are the names of your backups : ");
+            Console.WriteLine("Showing the list of all your already existing backups : ");
         }
     }
 }
