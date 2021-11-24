@@ -64,7 +64,7 @@ namespace EasySaveApp.model
 
             if (!dir.Exists) //Check if the file is present
             {
-                throw new DirectoryNotFoundException("ERROR 404 : Directory Not Found ! " + inputpathsave);
+                 throw new DirectoryNotFoundException("ERROR : Directory Not Found ! " + inputpathsave);
             }
 
             DirectoryInfo[] dirs = dir.GetDirectories();
