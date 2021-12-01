@@ -108,9 +108,12 @@ namespace EasySaveV1.controller
                     switch (menuNumberTyped) // Switch of menu
                     {
                         case 0:
+
                             Environment.Exit(0); //Stop the programs
                             break;
+
                         case 1:
+
                             view.NameFileScreen(numLang); //Display message introduction on the backup names
 
                             string jsonString = File.ReadAllText(model.backupListFile); //Function to read json file
@@ -123,22 +126,16 @@ namespace EasySaveV1.controller
                             view.FileScreen(numLang);//Calling the function to display the names of the backups
                             string inputnamebackup = Console.ReadLine(); // Recovering backup names
                             model.LoadSave(inputnamebackup); // Calling the function to start the backup
+
                             break;
 
                         case 2:
-                            if (model.checkdatabackup < 5) // Check not to exceed the save limit
-                            {
-                                Console.Clear(); //Console cleaning
-                                view.SubMenu(numLang); // Calling the function to display the second menu
-                                MenuSub(numLang); // Calling the function for the second menu
-                            }
-                            else
-                            {
-                                Console.Clear(); //Console cleaning
-                                view.Error(dico.p19[numLang]); // Show Error Message
-                            }
 
-                            break;
+                        Console.Clear(); //Console cleaning
+                        view.SubMenu(numLang); // Calling the function to display the second menu
+                        MenuSub(numLang); // Calling the function for the second menu
+
+                        break;
                     }
 
                 }

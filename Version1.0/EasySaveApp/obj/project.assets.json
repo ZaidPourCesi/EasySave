@@ -52,20 +52,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aldry\\.nuget\\packages\\": {}
+    "C:\\Users\\zidou\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Visual Studio Professional 2019\\projet\\p1\\sdiugdyu\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
+      "projectUniqueName": "C:\\Cesi\\prog sys\\projet\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
       "projectName": "EasySaveApp",
-      "projectPath": "D:\\Visual Studio Professional 2019\\projet\\p1\\sdiugdyu\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
-      "packagesPath": "C:\\Users\\aldry\\.nuget\\packages\\",
-      "outputPath": "D:\\Visual Studio Professional 2019\\projet\\p1\\sdiugdyu\\Version1.0\\EasySaveApp\\obj\\",
+      "projectPath": "C:\\Cesi\\prog sys\\projet\\Version1.0\\EasySaveApp\\EasySaveApp.csproj",
+      "packagesPath": "C:\\Users\\zidou\\.nuget\\packages\\",
+      "outputPath": "C:\\Cesi\\prog sys\\projet\\Version1.0\\EasySaveApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\aldry\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\zidou\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

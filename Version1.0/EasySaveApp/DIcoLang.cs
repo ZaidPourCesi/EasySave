@@ -33,8 +33,7 @@ namespace DictionaryLangue
         public string[] p17 = { " Showing the list of all your already existing backups : ", " Affichage de la liste de toutes les sauvegardes existantes : " };
 
 
-        public string[] p18 = { "Incorect Path", "Chemin d'accès incorrecte" };
-        public string[] p19 = { "You already have 5 backups. Please delete a backup job so you can create another one ", " Vous avez déjà 5 sauvegardes. Veuillez en supprimer une pour pourvoir en créer une autre " };
+        public string[] p18 = { "Incorect Path", "Chemin d'accès incorrecte" };       
         public string[] p20 = { "  ", "  " };
 
         public int ChooseLanguage()
