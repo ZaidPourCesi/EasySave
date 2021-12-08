@@ -1,0 +1,15 @@
+﻿<Window x:Class="easySaveV2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:easySaveV2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock x:Name="TitleMain"  HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="30" TextDecorations="Underline">- Welcome to EasySave V1.0 -</TextBlock>
+        <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Top" Width="160" Height="35" FontSize="20" Click="SaveButton_Click"/>
+        <Button x:Name="LoadButton" Content="Load" HorizontalAlignment="Center" Margin="0,210,0,0" VerticalAlignment="Top" Width="160" Height="35" FontSize="20" Click="LoadButton_Click"/>
+        <Button x:Name="SettingButton" Content="Setting" HorizontalAlignment="Center" Margin="0,270,0,0" VerticalAlignment="Top" Width="160" Height="35" FontSize="20" Click="SettingButton_Click"/>
+    </Grid>
+</Window>
