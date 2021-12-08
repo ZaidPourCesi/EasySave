@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace easySaveV2
 {
@@ -45,7 +46,7 @@ namespace easySaveV2
         ConfigHelper conf = new ConfigHelper();
         
 
-        public string[] pV2_0 = { " Return ", " retour " };
+        public string[] pV2_0 = { " Return ", " Retour " };
         public int pV2_1 = 0; // SelectedLang
 
         //Main page
@@ -70,6 +71,7 @@ namespace easySaveV2
         public string[] pV2_Save_alert_4 = { "! Choose a backup name !", "! Choisissez un nom de sauvegarde !" };
         public string[] pV2_Save_alert_5 = { "! Select a backup mode !", "! Sélectionnez un mode de sauvegarde !" };
         public string[] pV2_Save_alert_6 = { "Saved file", "Fichier enregistré" };
+        public string[] pV2_Save_alert_7 = { "Save fail", "Sauvegarde échouée" };
 
         //Load page
         public string[] pV2_Load_1 = { "- Load -", "- Charger -" };
@@ -78,6 +80,8 @@ namespace easySaveV2
         public string[] pV2_Setting_1 = { "- Setting -", "- Parametre -" };
         public string[] pV2_Setting_2 = { " Black List Software ", " liste noire " };
         public string[] pV2_Setting_3 = { " Extension ", " Extension " };
+
+        public string[] pV2_Setting_alert_1 = { " The application is in english ", " L'application est en français " };
 
 
         public int ChooseLanguage()//v1
@@ -108,10 +112,11 @@ namespace easySaveV2
         
         public int SelectedLang()
         {
+            int numLang = ReadLang();
 
-            if (ReadLang() < NombreDeLangues)
+            if (numLang < NombreDeLangues)
             {
-                return ReadLang(); 
+                return numLang; 
             }
             else
             {
@@ -123,7 +128,7 @@ namespace easySaveV2
         public void DicoChangeLang(string l)
         {
             conf.AddUpdateAppSettings("language", l);
-            SelectedLang();
+            MessageBox.Show(pV2_Setting_alert_1[Int32.Parse(l)]);
         }
 
         private int ReadLang()//v2

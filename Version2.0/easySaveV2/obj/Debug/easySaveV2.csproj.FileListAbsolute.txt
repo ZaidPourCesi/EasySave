@@ -61,3 +61,4 @@ D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Versio
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version2.0\easySaveV2\obj\Debug\easySaveV2.csproj.CoreCompileInputs.cache
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version2.0\easySaveV2\obj\Debug\easySaveV2.exe
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version2.0\easySaveV2\obj\Debug\easySaveV2.pdb
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version2.0\easySaveV2\obj\Debug\easySaveV2.csproj.CopyComplete

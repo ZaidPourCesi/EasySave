@@ -13,7 +13,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-//using System.Windows.Forms;
+
+using SWF = System.Windows.Forms;
 
 namespace easySaveV2
 {
@@ -25,7 +26,9 @@ namespace easySaveV2
     {
         
         Dictionary dico = new Dictionary();
-        OpenFileDialog ofd = new OpenFileDialog();
+        Model model = new Model();
+        SWF.FolderBrowserDialog ofd = new SWF.FolderBrowserDialog();
+        //OpenFileDialog ofd = new OpenFileDialog();
 
 
         public SavePage()
@@ -42,21 +45,21 @@ namespace easySaveV2
         }
 
         private void test01_Click(object sender, RoutedEventArgs e)
-        {
+        {           
             var test = ofd.ShowDialog();
-            TextBoxSourcePath.Text = ofd.FileName;
+            TextBoxSourcePath.Text = ofd.SelectedPath;
         }
 
         private void TargetPath_Click(object sender, RoutedEventArgs e)
         { 
             var test = ofd.ShowDialog();
-            TextBoxTargetPath.Text = ofd.FileName;
+            TextBoxTargetPath.Text = ofd.SelectedPath;
         }
 
         private void MirrorPath_Click(object sender, RoutedEventArgs e)
         {
             var test = ofd.ShowDialog();
-            TextBoxMirrorPath.Text = ofd.FileName;
+            TextBoxMirrorPath.Text = ofd.SelectedPath;
         }
 
 
@@ -84,7 +87,28 @@ namespace easySaveV2
             }
             else
             {
-                MessageBox.Show(dico.pV2_Save_alert_6[dico.SelectedLang()]);
+                //...
+
+                try
+                {
+                    if (MirrorSaveRadio.IsChecked == true)
+                    {
+                        model.CompleteSave(TextBoxSourcePath.Text, TextBoxTargetPath.Text, true, true);
+                    }
+                    else
+                    {
+                        model.DifferentialSave(TextBoxSourcePath.Text, TextBoxMirrorPath.Text, TextBoxTargetPath.Text);
+                    }
+
+                    MessageBox.Show(dico.pV2_Save_alert_6[dico.SelectedLang()]);
+                    ResetBacupParameters();
+                }
+                catch
+                {
+                    MessageBox.Show(dico.pV2_Save_alert_7[dico.SelectedLang()]);
+                }
+
+                //MessageBox.Show(dico.pV2_Save_alert_6[dico.SelectedLang()]);
             }
 
         }
@@ -104,6 +128,15 @@ namespace easySaveV2
             SaveBoutton.Content = dico.pV2_Save_8[lang];
         }
 
-        
+        void ResetBacupParameters()
+        {
+            TextBoxSourcePath.Text = string.Empty;
+            TextBoxTargetPath.Text = string.Empty;
+            TextBoxMirrorPath.Text = string.Empty;
+            TextBoxNameOfTheSave.Text = string.Empty;
+            MirrorSaveRadio.IsChecked = false;
+            DifferentialSaveRadio.IsChecked = false;
+        }
+
     }
 }

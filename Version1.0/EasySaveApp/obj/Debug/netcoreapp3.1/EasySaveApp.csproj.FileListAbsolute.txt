@@ -120,3 +120,19 @@ D:\Visual Studio Professional 2019\projet\p1\Projet n2 clonne3 - Copie\Version1.
 D:\Visual Studio Professional 2019\projet\p1\Projet n2 clonne3 - Copie\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.dll
 D:\Visual Studio Professional 2019\projet\p1\Projet n2 clonne3 - Copie\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.pdb
 D:\Visual Studio Professional 2019\projet\p1\Projet n2 clonne3 - Copie\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.genruntimeconfig.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveApp.exe
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveApp.deps.json
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveApp.runtimeconfig.json
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveApp.runtimeconfig.dev.json
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveApp.dll
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\EasySaveApp.pdb
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.csproj.AssemblyReference.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.AssemblyInfoInputs.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.AssemblyInfo.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.csproj.CoreCompileInputs.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.csproj.CopyComplete
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.dll
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.pdb
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version1.0\EasySaveApp\obj\Debug\netcoreapp3.1\EasySaveApp.genruntimeconfig.cache
