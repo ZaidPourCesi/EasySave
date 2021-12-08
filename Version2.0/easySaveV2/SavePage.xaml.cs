@@ -25,7 +25,8 @@ namespace easySaveV2
     {
         
         Dictionary dico = new Dictionary();
-  
+        OpenFileDialog ofd = new OpenFileDialog();
+
 
         public SavePage()
         {
@@ -42,21 +43,18 @@ namespace easySaveV2
 
         private void test01_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog ofd = new OpenFileDialog();
             var test = ofd.ShowDialog();
             TextBoxSourcePath.Text = ofd.FileName;
         }
 
         private void TargetPath_Click(object sender, RoutedEventArgs e)
-        {
-            OpenFileDialog ofd = new OpenFileDialog();
+        { 
             var test = ofd.ShowDialog();
             TextBoxTargetPath.Text = ofd.FileName;
         }
 
         private void MirrorPath_Click(object sender, RoutedEventArgs e)
         {
-            OpenFileDialog ofd = new OpenFileDialog();
             var test = ofd.ShowDialog();
             TextBoxMirrorPath.Text = ofd.FileName;
         }
@@ -64,6 +62,30 @@ namespace easySaveV2
 
         private void SaveBoutton_Click(object sender, RoutedEventArgs e)
         {
+            if(TextBoxSourcePath.Text == "")
+            {
+                MessageBox.Show(dico.pV2_Save_alert_1[dico.SelectedLang()]);
+            }
+            else if (TextBoxTargetPath.Text == "")
+            {
+                MessageBox.Show(dico.pV2_Save_alert_2[dico.SelectedLang()]);
+            }
+            else if (TextBoxMirrorPath.Text == "")
+            {
+                MessageBox.Show(dico.pV2_Save_alert_3[dico.SelectedLang()]);
+            }
+            else if (TextBoxNameOfTheSave.Text == "")
+            {
+                MessageBox.Show(dico.pV2_Save_alert_4[dico.SelectedLang()]);
+            }
+            else if (!(bool)(MirrorSaveRadio.IsChecked | DifferentialSaveRadio.IsChecked))
+            {
+                MessageBox.Show(dico.pV2_Save_alert_5[dico.SelectedLang()]);
+            }
+            else
+            {
+                MessageBox.Show(dico.pV2_Save_alert_6[dico.SelectedLang()]);
+            }
 
         }
 

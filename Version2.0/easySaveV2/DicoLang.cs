@@ -64,6 +64,13 @@ namespace easySaveV2
         public string[] pV2_Save_7 = { " Differential save ", " Sauvegarde Differentiel " };
         public string[] pV2_Save_8 = { " Save ", " Sauvegarder " };
 
+        public string[] pV2_Save_alert_1 = { "! Select a source path !", "! Sélectionnez un chemin source !" };
+        public string[] pV2_Save_alert_2 = { "! Select a target path !", "! Sélectionnez un chemin cible !" };
+        public string[] pV2_Save_alert_3 = { "! Select a mirror path !", "! Sélectionnez un chemin de sauvegarde !" };
+        public string[] pV2_Save_alert_4 = { "! Choose a backup name !", "! Choisissez un nom de sauvegarde !" };
+        public string[] pV2_Save_alert_5 = { "! Select a backup mode !", "! Sélectionnez un mode de sauvegarde !" };
+        public string[] pV2_Save_alert_6 = { "Saved file", "Fichier enregistré" };
+
         //Load page
         public string[] pV2_Load_1 = { "- Load -", "- Charger -" };
 
