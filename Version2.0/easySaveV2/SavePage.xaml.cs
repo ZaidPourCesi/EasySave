@@ -21,10 +21,10 @@ namespace easySaveV2
     /// <summary>
     /// Interaction logic for SavePage.xaml
     /// </summary>
-    
+
     public partial class SavePage : Window
     {
-        
+
         Dictionary dico = new Dictionary();
         Model model = new Model();
         SWF.FolderBrowserDialog ofd = new SWF.FolderBrowserDialog();
@@ -45,13 +45,13 @@ namespace easySaveV2
         }
 
         private void test01_Click(object sender, RoutedEventArgs e)
-        {           
+        {
             var test = ofd.ShowDialog();
             TextBoxSourcePath.Text = ofd.SelectedPath;
         }
 
         private void TargetPath_Click(object sender, RoutedEventArgs e)
-        { 
+        {
             var test = ofd.ShowDialog();
             TextBoxTargetPath.Text = ofd.SelectedPath;
         }
@@ -65,7 +65,7 @@ namespace easySaveV2
 
         private void SaveBoutton_Click(object sender, RoutedEventArgs e)
         {
-            if(TextBoxSourcePath.Text == "")
+            if (TextBoxSourcePath.Text == "")
             {
                 MessageBox.Show(dico.pV2_Save_alert_1[dico.SelectedLang()]);
             }
@@ -93,11 +93,16 @@ namespace easySaveV2
                 {
                     if (MirrorSaveRadio.IsChecked == true)
                     {
-                        model.CompleteSave(TextBoxSourcePath.Text, TextBoxTargetPath.Text, true, true);
+
+                        Backup backup = new Backup(TextBoxNameOfTheSave.Text, TextBoxSourcePath.Text, TextBoxTargetPath.Text, 1, TextBoxMirrorPath.Text);
+                        model.AddSave(backup);
+
                     }
                     else
                     {
-                        model.DifferentialSave(TextBoxSourcePath.Text, TextBoxMirrorPath.Text, TextBoxTargetPath.Text);
+                        Backup backup = new Backup(TextBoxNameOfTheSave.Text, TextBoxSourcePath.Text, TextBoxTargetPath.Text, 0, TextBoxMirrorPath.Text);
+                        model.AddSave(backup);
+
                     }
 
                     MessageBox.Show(dico.pV2_Save_alert_6[dico.SelectedLang()]);

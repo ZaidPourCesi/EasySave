@@ -33,6 +33,47 @@ namespace easySaveV2
         public string userMenuInput { get; set; }
         public string mirrorRepository { get; set; }
 
+
+
+        public List<Backup> ListName()
+        {
+            List<Backup> backupList = new List<Backup>();
+
+            if (!File.Exists(backupListFile))
+            {
+                File.WriteAllText(backupListFile, this.serializeObj);
+            }
+
+            List<Backup> names = new List<Backup>();
+            string jsonString = File.ReadAllText(backupListFile);
+            Backup[] list = JsonConvert.DeserializeObject<Backup[]>(jsonString);
+
+            if (jsonString.Length != 0)
+            {
+                foreach (var obj in list)
+                {
+                    names.Add(obj);
+                }
+
+            }
+
+            return names;
+
+        }
+
+
+
+        public List<string> ListBackup()
+        {
+
+            List<string> nameslist = new List<string>();
+            foreach (var obj in ListName())
+            {
+                nameslist.Add(obj.nameToSave);
+            }
+            return nameslist;
+        }
+
         //---------------------------------------------------------------------------------------------------------------------------------------------------------------
         public Model()
         {

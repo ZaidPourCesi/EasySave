@@ -21,11 +21,13 @@ namespace easySaveV2
     {
 
         Dictionary dico = new Dictionary();
+        Model model = new Model();
 
         public LoadPage()
         {
             InitializeComponent();
             ChangePageText(dico.SelectedLang());
+            ListBoxListing();
         }
 
         private void Load_ReturnButton_Click(object sender, RoutedEventArgs e)
@@ -35,9 +37,35 @@ namespace easySaveV2
             this.Close();
         }
 
+
+        private void RefreshListButton_Click(object sender, RoutedEventArgs e)
+        {
+            ListBoxListing();
+        }
+
+        private void ListBoxListing()
+        {
+
+            SaveList.Items.Clear();
+
+            List<string> namesOfBackupSave = model.ListBackup();
+            foreach (string nameOBS in namesOfBackupSave)
+            {
+                SaveList.Items.Add(nameOBS);
+            }
+        }
+
+        private void SaveListButton_Click(object sender, RoutedEventArgs e)
+        {
+            model.LoadSave(SaveList.SelectedItem.ToString());
+        }
+
         void ChangePageText(int lang)
         {
             LoadLabel.Text = dico.pV2_Load_1[lang];
+            RefreshListButton.Content = dico.pV2_Load_2[lang];
+            SaveListButton.Content = dico.pV2_Load_3[lang];
         }
+
     }
 }

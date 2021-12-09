@@ -44,7 +44,7 @@ namespace easySaveV2
 
 
         ConfigHelper conf = new ConfigHelper();
-        
+
 
         public string[] pV2_0 = { " Return ", " Retour " };
         public int pV2_1 = 0; // SelectedLang
@@ -59,27 +59,29 @@ namespace easySaveV2
         public string[] pV2_Save_1 = { "- Save -", "- Sauvegarder -" };
         public string[] pV2_Save_2 = { " Source path : ", " Chemin source : " };
         public string[] pV2_Save_3 = { " Target path : ", " Chemin cible : " };
-        public string[] pV2_Save_4 = { " Mirror path : ", " chemin de sauvegarde : " };
+        public string[] pV2_Save_4 = { " Mirror path : ", " Chemin mirroir : " };
         public string[] pV2_Save_5 = { " Name of the save : ", " Nom de la sauvegarde : " };
-        public string[] pV2_Save_6 = { " Mirror save ", " sauvegarde complete " };
-        public string[] pV2_Save_7 = { " Differential save ", " Sauvegarde Differentiel " };
+        public string[] pV2_Save_6 = { " Complete save ", " Sauvegarde Complete " };
+        public string[] pV2_Save_7 = { " Differential save ", " Sauvegarde Differentielle " };
         public string[] pV2_Save_8 = { " Save ", " Sauvegarder " };
 
         public string[] pV2_Save_alert_1 = { "! Select a source path !", "! Sélectionnez un chemin source !" };
         public string[] pV2_Save_alert_2 = { "! Select a target path !", "! Sélectionnez un chemin cible !" };
-        public string[] pV2_Save_alert_3 = { "! Select a mirror path !", "! Sélectionnez un chemin de sauvegarde !" };
+        public string[] pV2_Save_alert_3 = { "! Select a mirror path !", "! Sélectionnez un chemin mirroir !" };
         public string[] pV2_Save_alert_4 = { "! Choose a backup name !", "! Choisissez un nom de sauvegarde !" };
         public string[] pV2_Save_alert_5 = { "! Select a backup mode !", "! Sélectionnez un mode de sauvegarde !" };
-        public string[] pV2_Save_alert_6 = { "Saved file", "Fichier enregistré" };
-        public string[] pV2_Save_alert_7 = { "Save fail", "Sauvegarde échouée" };
+        public string[] pV2_Save_alert_6 = { "File saved succesfully", "Fichier enregistré" };
+        public string[] pV2_Save_alert_7 = { "Save failed", "Sauvegarde échouée" };
 
         //Load page
         public string[] pV2_Load_1 = { "- Load -", "- Charger -" };
+        public string[] pV2_Load_2 = { " Refresh ", " Rafraichir " };
+        public string[] pV2_Load_3 = { " Save ", " Sauvegarder " };
 
         //Setting page
-        public string[] pV2_Setting_1 = { "- Setting -", "- Parametre -" };
-        public string[] pV2_Setting_2 = { " Black List Software ", " liste noire " };
-        public string[] pV2_Setting_3 = { " Extension ", " Extension " };
+        public string[] pV2_Setting_1 = { "- Settings -", "- Parametres -" };
+        public string[] pV2_Setting_2 = { " BlackList ", " Liste noire " };
+        public string[] pV2_Setting_3 = { " Extensions ", " Extensions " };
 
         public string[] pV2_Setting_alert_1 = { " The application is in english ", " L'application est en français " };
 
@@ -109,14 +111,14 @@ namespace easySaveV2
             return (langNum);
         }
 
-        
+
         public int SelectedLang()
         {
             int numLang = ReadLang();
 
             if (numLang < NombreDeLangues)
             {
-                return numLang; 
+                return numLang;
             }
             else
             {
@@ -136,7 +138,7 @@ namespace easySaveV2
             return Int32.Parse(conf.GetParticularKeyValue("language"));
         }
 
-        
+
 
     }
 }

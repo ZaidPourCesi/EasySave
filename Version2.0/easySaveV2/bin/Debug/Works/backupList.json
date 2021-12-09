@@ -1,0 +1,9 @@
+[
+  {
+    "sourceRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v2\\V2Git1_1 clone avant push\\Version2.0\\easySaveV2\\Source",
+    "targetRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v2\\V2Git1_1 clone avant push\\Version2.0\\easySaveV2\\Destination",
+    "type": 1,
+    "mirrorRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v2\\V2Git1_1 clone avant push\\Version2.0\\easySaveV2\\Destination",
+    "nameToSave": "test final 02"
+  }
+]
