@@ -62,3 +62,25 @@ D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Versio
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version2.0\easySaveV2\obj\Debug\easySaveV2.exe
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version2.0\easySaveV2\obj\Debug\easySaveV2.pdb
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v2\V2Git1_0TestClonnnn\Version2.0\easySaveV2\obj\Debug\easySaveV2.csproj.CopyComplete
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\bin\Debug\easySaveV2.exe.config
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\bin\Debug\easySaveV2.exe
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\bin\Debug\easySaveV2.pdb
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\easySaveV2.csproj.AssemblyReference.cache
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\LoadPage.g.cs
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\MainWindow.g.cs
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\SavePage.g.cs
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\SettingPage.g.cs
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\App.g.cs
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\easySaveV2_MarkupCompile.cache
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\easySaveV2_MarkupCompile.lref
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\LoadPage.baml
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\MainWindow.baml
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\SavePage.baml
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\SettingPage.baml
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\easySaveV2.g.resources
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\easySaveV2.Properties.Resources.resources
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\easySaveV2.csproj.GenerateResource.cache
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\easySaveV2.csproj.CoreCompileInputs.cache
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\easySaveV2.csproj.CopyComplete
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\easySaveV2.exe
+C:\Cesi\prog sys\ici\Version2.0\easySaveV2\obj\Debug\easySaveV2.pdb

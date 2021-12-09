@@ -60,6 +60,11 @@ namespace easySaveV2
             Setting_ReturnButton.Content = dico.pV2_0[lang];
         }
 
-        
+
+        private void Open_blacklist(object sender, RoutedEventArgs e)//Function that allows the button to open the file of blacklisted software
+        {
+            System.Diagnostics.Process.Start("notepad.exe", @"Blacklist.json");
+        }
+
     }
 }
