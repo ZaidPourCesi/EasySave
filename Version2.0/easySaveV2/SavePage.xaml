@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:easySaveV2"
         mc:Ignorable="d"
         Title="SavePage" Height="450" Width="800" WindowStartupLocation="CenterScreen">
-    <Grid>
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Width="800">
         <TextBlock x:Name="SaveLabel"  HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="30" TextDecorations="Underline">Save</TextBlock>
         <Label x:Name="SourceLabel" Content="Source path" HorizontalAlignment="Left" Margin="70,80,0,0" VerticalAlignment="Top" FontSize="15"/>
         <TextBox BorderBrush="Black" x:Name="TextBoxSourcePath" HorizontalAlignment="Left" Height="25"  Margin="80,110,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="480"/>

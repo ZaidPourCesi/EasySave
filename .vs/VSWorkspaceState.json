@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Version2.0",
+    "\\Version2.0\\easySaveV2"
   ],
+  "SelectedNode": "\\Version2.0\\easySaveV2\\Model.cs",
   "PreviewInSolutionExplorer": false
 }

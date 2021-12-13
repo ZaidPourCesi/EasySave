@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:easySaveV2"
         mc:Ignorable="d"
         Title="SettingPage" Height="450" Width="800" WindowStartupLocation="CenterScreen">
-    <Grid>
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Width="800">
         <TextBlock x:Name="SettingLabel"  HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="30" TextDecorations="Underline">Setting</TextBlock>
         <Button x:Name="EnButton" Content="English" HorizontalAlignment="Center" Margin="-140,140,0,0" VerticalAlignment="Top" Width="90" FontSize="15" Click="EnButton_Click"/>
         <Button x:Name="FrButton" Content="Francais" HorizontalAlignment="Center" Margin="140,140,0,0" VerticalAlignment="Top" Width="90" Click="FrButton_Click" FontSize="15"/>

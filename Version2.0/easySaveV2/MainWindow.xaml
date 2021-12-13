@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:easySaveV2"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
-    <Grid>
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Width="800">
         <TextBlock x:Name="TitleMain"  HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="30" TextDecorations="Underline">- Welcome to EasySave V1.0 -</TextBlock>
         <Button x:Name="SaveButton" Content="Save" HorizontalAlignment="Center" Margin="0,150,0,0" VerticalAlignment="Top" Width="160" Height="35" FontSize="20" Click="SaveButton_Click"/>
         <Button x:Name="LoadButton" Content="Load" HorizontalAlignment="Center" Margin="0,210,0,0" VerticalAlignment="Top" Width="160" Height="35" FontSize="20" Click="LoadButton_Click"/>

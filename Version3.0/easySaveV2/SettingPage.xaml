@@ -1,0 +1,18 @@
+﻿<Window x:Class="easySaveV3.SettingPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:easySaveV2"
+        mc:Ignorable="d"
+        Title="SettingPage" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Width="800">
+        <TextBlock x:Name="SettingLabel"  HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="30" TextDecorations="Underline">Setting</TextBlock>
+        <Button x:Name="EnButton" Content="English" HorizontalAlignment="Center" Margin="-140,140,0,0" VerticalAlignment="Top" Width="90" FontSize="15" Click="EnButton_Click"/>
+        <Button x:Name="FrButton" Content="Francais" HorizontalAlignment="Center" Margin="140,140,0,0" VerticalAlignment="Top" Width="90" Click="FrButton_Click" FontSize="15"/>
+        <Button x:Name="BlBoutton" Click="Open_blacklist" Content="Black List Sofware" HorizontalAlignment="Center" Margin="0,220,0,0" VerticalAlignment="Top" Width="200" Height="25" FontSize="15"/>
+        <Button x:Name="ExBoutton" Content="Extension" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Width="200" Height="25" FontSize="15"/>
+        <Button x:Name="Setting_ReturnButton" Content="Return" HorizontalAlignment="Left" Margin="10,380,0,0" VerticalAlignment="Top" Width="90" Height="25"  Click="Setting_ReturnButton_Click" FontSize="16"/>
+
+    </Grid>
+</Window>
