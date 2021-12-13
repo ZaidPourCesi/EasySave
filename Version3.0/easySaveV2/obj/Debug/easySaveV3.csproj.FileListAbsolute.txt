@@ -20,3 +20,27 @@ D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\1\Version3.0\easySaveV2\ob
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\1\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.CopyComplete
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\1\Version3.0\easySaveV2\obj\Debug\easySaveV2.exe
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\1\Version3.0\easySaveV2\obj\Debug\easySaveV2.pdb
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.AssemblyReference.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\LoadPage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\MainWindow.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\SavePage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\SettingPage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\App.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\LoadPage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\MainWindow.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\SavePage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\SettingPage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.GenerateResource.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.CoreCompileInputs.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.CopyComplete
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\ExtensionPage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\ExtensionPage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\bin\Debug\easySaveV3.exe.config
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\bin\Debug\easySaveV3.exe
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\bin\Debug\easySaveV3.pdb
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\easySaveV3_MarkupCompile.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\easySaveV3_MarkupCompile.lref
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.g.resources
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.Properties.Resources.resources
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.exe
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.pdb

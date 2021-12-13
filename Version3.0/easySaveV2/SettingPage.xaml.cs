@@ -66,5 +66,11 @@ namespace easySaveV3
             System.Diagnostics.Process.Start("notepad.exe", @"Blacklist.json");
         }
 
+        private void ExBoutton_Click(object sender, RoutedEventArgs e)
+        {
+            ExtensionPage extensionPage = new ExtensionPage();
+            this.Close();
+            extensionPage.Show();
+        }
     }
 }

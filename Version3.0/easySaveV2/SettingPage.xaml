@@ -11,7 +11,7 @@
         <Button x:Name="EnButton" Content="English" HorizontalAlignment="Center" Margin="-140,140,0,0" VerticalAlignment="Top" Width="90" FontSize="15" Click="EnButton_Click"/>
         <Button x:Name="FrButton" Content="Francais" HorizontalAlignment="Center" Margin="140,140,0,0" VerticalAlignment="Top" Width="90" Click="FrButton_Click" FontSize="15"/>
         <Button x:Name="BlBoutton" Click="Open_blacklist" Content="Black List Sofware" HorizontalAlignment="Center" Margin="0,220,0,0" VerticalAlignment="Top" Width="200" Height="25" FontSize="15"/>
-        <Button x:Name="ExBoutton" Content="Extension" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Width="200" Height="25" FontSize="15"/>
+        <Button x:Name="ExBoutton" Content="Extension" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Width="200" Height="25" FontSize="15" Click="ExBoutton_Click"/>
         <Button x:Name="Setting_ReturnButton" Content="Return" HorizontalAlignment="Left" Margin="10,380,0,0" VerticalAlignment="Top" Width="90" Height="25"  Click="Setting_ReturnButton_Click" FontSize="16"/>
 
     </Grid>

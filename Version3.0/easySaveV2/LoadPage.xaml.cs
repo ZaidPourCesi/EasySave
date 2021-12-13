@@ -65,7 +65,12 @@ namespace easySaveV3
             LoadLabel.Text = dico.pV2_Load_1[lang];
             RefreshListButton.Content = dico.pV2_Load_2[lang];
             SaveListButton.Content = dico.pV2_Load_3[lang];
+            Load_ReturnButton.Content = dico.pV2_0[lang];
         }
 
+        private void SaveList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

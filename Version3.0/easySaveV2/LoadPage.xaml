@@ -9,7 +9,7 @@
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Width="800">
         <TextBlock x:Name="LoadLabel" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="30" TextDecorations="Underline">Load</TextBlock>
         <Button x:Name="Load_ReturnButton" Content="Return" HorizontalAlignment="Left" Margin="10,380,0,0" VerticalAlignment="Top" Width="90" Height="25"  Click="Load_ReturnButton_Click" FontSize="16"/>
-        <ListBox x:Name="SaveList" BorderBrush="Black" HorizontalAlignment="Center" Height="210" Margin="204,120,204,0" VerticalAlignment="Top" Width="390"/>
+        <ListBox x:Name="SaveList" BorderBrush="Black" HorizontalAlignment="Center" Height="210" Margin="204,120,204,0" VerticalAlignment="Top" Width="390" SelectionChanged="SaveList_SelectionChanged"/>
         <Button x:Name="RefreshListButton" Content="Refresh" HorizontalAlignment="Left" Margin="615,140,0,0" VerticalAlignment="Top" Width="130" Click="RefreshListButton_Click" Height="31" FontSize="20"/>
         <Button x:Name="SaveListButton" Content="Save" HorizontalAlignment="Left" Margin="615,342,0,0" VerticalAlignment="Top" Width="130" Click="SaveListButton_Click" Height="31" FontSize="20"/>
 

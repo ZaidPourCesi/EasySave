@@ -86,6 +86,23 @@ namespace easySaveV3
         public string[] pV2_Setting_alert_1 = { " The application is in english ", " L'application est en français " };
 
 
+        //////////////////////////  - v3 - //////////////////////////
+
+        public string[] pV3_Etension_1 = { "- Extension -", "- Extension -" };
+        public string[] pV3_Etension_2 = { "Refresh", " Rafraichir " };
+        public string[] pV3_Etension_3 = { "Add", "Ajouter" };
+        public string[] pV3_Etension_4 = { "Del", "Supr" };
+        public string[] pV3_Etension_5 = { "Prioritary extensions", "Extensions prioritaires" };
+        public string[] pV3_Etension_6 = { "Banned extensions", "Extensions interdites" };
+        public string[] pV3_Etension_7 = { "Name", "Nom" };
+        public string[] pV3_Etension_8 = { "Extension", "Extension" };
+
+        public string[] pV3_Extension_alert_1 = { " name ", " nom " };
+        public string[] pV3_Extension_alert_2 = { " extension ", " extension " };
+
+
+
+
         public int ChooseLanguage()//v1
         {
             int langNum = 0;
