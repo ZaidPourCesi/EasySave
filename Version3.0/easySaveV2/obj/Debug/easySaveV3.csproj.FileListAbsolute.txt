@@ -44,3 +44,7 @@ D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.Properties.Resources.resources
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.exe
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.pdb
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\CryptoSoftwarePage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\CryptoSoftwarePage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\LanguagePage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\obj\Debug\LanguagePage.baml

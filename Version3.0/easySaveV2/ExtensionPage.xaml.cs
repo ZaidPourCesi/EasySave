@@ -21,7 +21,7 @@ namespace easySaveV3
     {
 
         Dictionary dico = new Dictionary();
-        Model model = new Model();
+        //Model model = new Model();
         ConfigHelper ConfH = new ConfigHelper();
 
         public ExtensionPage()
@@ -43,14 +43,14 @@ namespace easySaveV3
             }
             else
             {
-                if (ConfH.AddExtension(KeyExtPrio.Text, ValueExtPrio.Text, 0) == false)
+                if (ConfH.AddToSettings(KeyExtPrio.Text, ValueExtPrio.Text, "ExtensionsSettings") == false)
                 {
                     MessageBox.Show("pas ok");
                 }
                 else
                 {
                     MessageBox.Show("ok");
-                    ListBoxListing();
+                    RefreshPage();
                 }
                 
                 
@@ -70,7 +70,7 @@ namespace easySaveV3
             else
             {
                 
-                ConfH.RemoveExtension(KeyExtPrio.Text,0);
+                ConfH.RemoveExtensionSettings(KeyExtPrio.Text, "ExtensionsSettings");
                 RefreshPage();
             }
         }
@@ -87,14 +87,14 @@ namespace easySaveV3
             }
             else
             {
-                if (ConfH.AddExtension(KeyExtBan.Text, ValueExtBan.Text, 1) == false)
+                if (ConfH.AddToSettings(KeyExtBan.Text, ValueExtBan.Text, "ExtensionsBanSettings") == false)
                 {
                     MessageBox.Show("pas ok");
                 }
                 else
                 {
                     MessageBox.Show("ok");
-                    ListBoxListing();
+                    RefreshPage();
                 }
             }
         }
@@ -111,7 +111,7 @@ namespace easySaveV3
             }
             else
             {
-                ConfH.RemoveExtension(KeyExtBan.Text, 1);
+                ConfH.RemoveExtensionSettings(KeyExtBan.Text, "ExtensionsBanSettings");
                 RefreshPage();
             }
         }
@@ -126,13 +126,13 @@ namespace easySaveV3
             extPrioList.Items.Clear();
             extBanList.Items.Clear();
 
-            List<string> namesOfBackupSave = ConfH.ListExtension(0);
+            List<string> namesOfBackupSave = ConfH.UpdateListSetting("ExtensionsSettings");
             foreach (string nameOBS in namesOfBackupSave)
             {
                 extPrioList.Items.Add(nameOBS);
             }
 
-            namesOfBackupSave = ConfH.ListExtension(1);
+            namesOfBackupSave = ConfH.UpdateListSetting("ExtensionsBanSettings");
             foreach (string nameOBS in namesOfBackupSave)
             {
                 extBanList.Items.Add(nameOBS);
@@ -184,21 +184,19 @@ namespace easySaveV3
 
         void ChangePageText(int lang)
         {
-            ExtensionLabel.Text = dico.pV3_Etension_1[lang];
-            RefreshExtensionButton.Content = dico.pV3_Etension_2[lang];
-            addExtPrio.Content = dico.pV3_Etension_3[lang];
-            SuprExtPrio.Content = dico.pV3_Etension_4[lang];
-            AddExtBan.Content = dico.pV3_Etension_3[lang];
-            SuprExtBan.Content = dico.pV3_Etension_4[lang];
-            titleExtPrio.Content = dico.pV3_Etension_5[lang];
-            titleExtBan.Content = dico.pV3_Etension_6[lang];
+            ExtensionLabel.Text = dico.pV3_Extension_1[lang];
+            RefreshExtensionButton.Content = dico.pV3_Extension_2[lang];
+            addExtPrio.Content = dico.pV3_Extension_3[lang];
+            SuprExtPrio.Content = dico.pV3_Extension_4[lang];
+            AddExtBan.Content = dico.pV3_Extension_3[lang];
+            SuprExtBan.Content = dico.pV3_Extension_4[lang];
+            titleExtPrio.Content = dico.pV3_Extension_5[lang];
+            titleExtBan.Content = dico.pV3_Extension_6[lang];
             Etension_ReturnButton.Content = dico.pV2_0[lang];
-            nameExtBanLabel.Content = dico.pV3_Etension_7[lang];
-            ValueExtBanLabel.Content = dico.pV3_Etension_8[lang];
-            nameExtPrioLabel.Content = dico.pV3_Etension_7[lang];
-            ValueExtPrioLabel.Content = dico.pV3_Etension_8[lang];
-
-
+            nameExtBanLabel.Content = dico.pV3_Extension_7[lang];
+            ValueExtBanLabel.Content = dico.pV3_Extension_8[lang];
+            nameExtPrioLabel.Content = dico.pV3_Extension_7[lang];
+            ValueExtPrioLabel.Content = dico.pV3_Extension_8[lang];
         }
 
         

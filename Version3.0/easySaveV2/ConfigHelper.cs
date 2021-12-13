@@ -11,7 +11,7 @@ namespace easySaveV3
     {
 
         String Attr;
-        public void ReadAllSettings()
+        /*public void ReadAllSettings()
         {
             try
             {
@@ -33,14 +33,14 @@ namespace easySaveV3
             {
                 Console.WriteLine("Error reading app settings");
             }
-        }
+        }*/
 
         public string GetParticularKeyValue(String l)
         {
             return (Attr = ConfigurationManager.AppSettings.Get(l));
         }
 
-        public void ReadSetting(string key)
+        /*public void ReadSetting(string key)
         {
             try
             {
@@ -52,7 +52,7 @@ namespace easySaveV3
             {
                 Console.WriteLine("Error reading app settings");
             }
-        }
+        }*/
 
         public void AddUpdateAppSettings(string key, string value)
         {
@@ -78,20 +78,24 @@ namespace easySaveV3
             }
         }
 
-        public void AddUpdateExtensionSettings(string key, string value)
+        
+
+        public bool AddToSettings(string key, string value, string name)
         {
             try
             {
                 Configuration configFile = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-                AppSettingsSection extensionsSection = (AppSettingsSection)configFile.GetSection("ExtensionsSettings");
+                AppSettingsSection extensionsSection = (AppSettingsSection)configFile.GetSection(name);
 
                 if (extensionsSection.Settings[key] == null)
                 {
                     extensionsSection.Settings.Add(key, value);
+                    
                 }
                 else
                 {
-                    extensionsSection.Settings[key].Value = value;
+                    //extensionsSection.Settings[key].Value = value;
+                    return false;
                 }
                 configFile.Save(ConfigurationSaveMode.Modified);
                 ConfigurationManager.RefreshSection(configFile.AppSettings.SectionInformation.Name);
@@ -99,15 +103,17 @@ namespace easySaveV3
             catch (ConfigurationErrorsException)
             {
                 Console.WriteLine("Error writing app settings");
+                return false;
             }
+            return true;
         }
 
-        public void RemoveExtensionSettings(string key)
+        public void RemoveExtensionSettings(string key, string name)
         {
             try
             {
                 Configuration configFile = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-                AppSettingsSection extensionsSection = (AppSettingsSection)configFile.GetSection("ExtensionsSettings");
+                AppSettingsSection extensionsSection = (AppSettingsSection)configFile.GetSection(name);
 
                 if (extensionsSection.Settings[key] == null)
                 {
@@ -125,7 +131,7 @@ namespace easySaveV3
                 Console.WriteLine("Error writing extension settings");
             }
         }
-        public void ReadExtension(string key)
+        /*public void ReadExtension(string key)
         {
             try
             {
@@ -138,9 +144,9 @@ namespace easySaveV3
             {
                 Console.WriteLine("Error reading app settings");
             }
-        }
+        }*/
 
-        public List<string> ListExtension(int ext)
+        /*public List<string> ListExtension(int ext)
         {
             List<string> listext = new List<string>();
             String extType = "ErrorExtension";
@@ -171,49 +177,35 @@ namespace easySaveV3
             }
 
             return listext;
-        }
+        }*/
 
-        public bool AddExtension(string key, string value, int ext)
+
+        public List<string> UpdateListSetting(string name)
         {
-
-            String extType = "ErrorExtension";
-
-            if (ext == 0)
-            {
-                extType = "ExtensionsSettings";
-            }
-            else if (ext == 1)
-            {
-                extType = "ExtensionsBanSettings";
-            }
+            List<string> listext = new List<string>();
 
 
             try
             {
                 Configuration configFile = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
-                AppSettingsSection extensionsSection = (AppSettingsSection)configFile.GetSection(extType);
+                AppSettingsSection extensionsSection = (AppSettingsSection)configFile.GetSection(name);
 
-                if (extensionsSection.Settings[key] == null)
+                foreach (var key in extensionsSection.Settings.AllKeys)
                 {
-                    extensionsSection.Settings.Add(key, value);
+                    listext.Add(key + " : " + extensionsSection.Settings[key].Value);
                 }
-                else
-                {
-                    //extensionsSection.Settings.Add("non", "non");
-                    //extensionsSection.Settings[key].Value = value;
-                    return false;
-                }
-                configFile.Save(ConfigurationSaveMode.Modified);
-                ConfigurationManager.RefreshSection(configFile.AppSettings.SectionInformation.Name);
             }
             catch (ConfigurationErrorsException)
             {
-                Console.WriteLine("Error writing app settings");
+                Console.WriteLine("Error reading extentions app settings");
             }
-            return true;
+
+            return listext;
         }
 
-        public bool RemoveExtension(string key, int ext)
+        
+
+        /*public bool RemoveExtension(string key, int ext)
         {
 
             String extType = "ErrorExtension";
@@ -251,7 +243,7 @@ namespace easySaveV3
             }
 
             return true;
-        }
+        }*/
 
     }
 

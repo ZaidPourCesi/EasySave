@@ -6,13 +6,16 @@
         xmlns:local="clr-namespace:easySaveV2"
         mc:Ignorable="d"
         Title="SettingPage" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Width="800">
-        <TextBlock x:Name="SettingLabel"  HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="30" TextDecorations="Underline">Setting</TextBlock>
-        <Button x:Name="EnButton" Content="English" HorizontalAlignment="Center" Margin="-140,140,0,0" VerticalAlignment="Top" Width="90" FontSize="15" Click="EnButton_Click"/>
-        <Button x:Name="FrButton" Content="Francais" HorizontalAlignment="Center" Margin="140,140,0,0" VerticalAlignment="Top" Width="90" Click="FrButton_Click" FontSize="15"/>
-        <Button x:Name="BlBoutton" Click="Open_blacklist" Content="Black List Sofware" HorizontalAlignment="Center" Margin="0,220,0,0" VerticalAlignment="Top" Width="200" Height="25" FontSize="15"/>
-        <Button x:Name="ExBoutton" Content="Extension" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Width="200" Height="25" FontSize="15" Click="ExBoutton_Click"/>
+        <TextBlock x:Name="SettingLabel"  HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="30" TextDecorations="Underline">Settings</TextBlock>
+        <Button x:Name="DarkButton" Content="Dark Mode" HorizontalAlignment="Center" Margin="275,140,405,0" VerticalAlignment="Top" Width="120" FontSize="15" Click="DarkButton_Click"/>
+        <Button x:Name="LightButton" Content="Light Mode" HorizontalAlignment="Center" Margin="405,140,275,0" VerticalAlignment="Top" Width="120" Click="LightButton_Click" FontSize="15"/>
+        <Button x:Name="BlBoutton" Click="Open_blacklist" Content="Black List Sofware" HorizontalAlignment="Center" Margin="0,220,0,0" VerticalAlignment="Top" Width="250" Height="25" FontSize="15"/>
+        <Button x:Name="ExBoutton" Content="Extension" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Width="250" Height="25" FontSize="15" Click="ExBoutton_Click"/>
         <Button x:Name="Setting_ReturnButton" Content="Return" HorizontalAlignment="Left" Margin="10,380,0,0" VerticalAlignment="Top" Width="90" Height="25"  Click="Setting_ReturnButton_Click" FontSize="16"/>
+        <Button x:Name="CryptBoutton" Click="CryptBoutton_click" Content="CryptoSofware settings" HorizontalAlignment="Center" Margin="0,260,0,0" VerticalAlignment="Top" Width="250" Height="25" FontSize="15"/>
+        <Button x:Name="LangBoutton" Click="LangBoutton_click" Content="Language" HorizontalAlignment="Center" Margin="275,181,275,0" VerticalAlignment="Top" Width="250" Height="25" FontSize="15"/>
 
     </Grid>
 </Window>

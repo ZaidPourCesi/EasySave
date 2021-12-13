@@ -12,7 +12,7 @@ namespace easySaveV3
 
 
         public int NombreDeLangues = 2;
-        public string[] langtot = { "English", "Francais" }; // ++V2
+        public string[] langtot = { "English", "Francais"}; // ++V2
         public string[] choix = { "Choose the language", "Choisisez une langue" };
 
         public string[] confirmLang = { "The application is in english", "L'application est en francais" };
@@ -45,7 +45,7 @@ namespace easySaveV3
 
         ConfigHelper conf = new ConfigHelper();
 
-
+        //Return button
         public string[] pV2_0 = { " Return ", " Retour " };
         public int pV2_1 = 0; // SelectedLang
 
@@ -82,23 +82,35 @@ namespace easySaveV3
         public string[] pV2_Setting_1 = { "- Settings -", "- Parametres -" };
         public string[] pV2_Setting_2 = { " BlackList ", " Liste noire " };
         public string[] pV2_Setting_3 = { " Extensions ", " Extensions " };
+        public string[] pV2_Setting_4 = { " CryptoSofware settings ", " Parametres de CryptoSofware " };
+        public string[] pV2_Setting_5 = { " Dark Mode ", " Mode Sombre " };
+        public string[] pV2_Setting_6 = { " Light Mode ", " Mode Lumineux " };
 
         public string[] pV2_Setting_alert_1 = { " The application is in english ", " L'application est en français " };
 
 
         //////////////////////////  - v3 - //////////////////////////
 
-        public string[] pV3_Etension_1 = { "- Extension -", "- Extension -" };
-        public string[] pV3_Etension_2 = { "Refresh", " Rafraichir " };
-        public string[] pV3_Etension_3 = { "Add", "Ajouter" };
-        public string[] pV3_Etension_4 = { "Del", "Supr" };
-        public string[] pV3_Etension_5 = { "Prioritary extensions", "Extensions prioritaires" };
-        public string[] pV3_Etension_6 = { "Banned extensions", "Extensions interdites" };
-        public string[] pV3_Etension_7 = { "Name", "Nom" };
-        public string[] pV3_Etension_8 = { "Extension", "Extension" };
+
+        //Extension page
+        public string[] pV3_Extension_1 = { "- Extension -", "- Extension -" };
+        public string[] pV3_Extension_2 = { " Refresh ", " Rafraichir " };
+        public string[] pV3_Extension_3 = { " Add ", " Ajouter " };
+        public string[] pV3_Extension_4 = { " Del ", " Supr " };
+        public string[] pV3_Extension_5 = { " Prioritary extensions ", " Extensions prioritaires " };
+        public string[] pV3_Extension_6 = { " Banned extensions ", " Extensions interdites " };
+        public string[] pV3_Extension_7 = { " Name ", " Nom " };
+        public string[] pV3_Extension_8 = { " Extension ", " Extension " };
 
         public string[] pV3_Extension_alert_1 = { " name ", " nom " };
         public string[] pV3_Extension_alert_2 = { " extension ", " extension " };
+
+        //CryptoSoftware Page
+        public string[] pV3_CryptoPage_1 = { "- CryptoSoftware settings -", "- Parametres de CryptoSoftware -" };
+
+
+        //Language Page
+        public string[] pV3_Language_1 = { "- Languages -", "- Langues -" };
 
 
 
@@ -156,6 +168,16 @@ namespace easySaveV3
         }
 
 
+        public List<string> ListLanguages()
+        {
+            List<string> listext = new List<string>();
 
+            for(int i=0;i< NombreDeLangues; i++)
+            {
+                listext.Add(langtot[i]);
+            }
+           
+            return listext;
+        }
     }
 }

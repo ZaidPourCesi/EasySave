@@ -63,11 +63,17 @@
     </ApplicationDefinition>
     <Compile Include="Backup.cs" />
     <Compile Include="ConfigHelper.cs" />
+    <Compile Include="CryptoSoftwarePage.xaml.cs">
+      <DependentUpon>CryptoSoftwarePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DicoLang.cs" />
     <Compile Include="ExtensionPage.xaml.cs">
       <DependentUpon>ExtensionPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="FileComparison.cs" />
+    <Compile Include="LanguagePage.xaml.cs">
+      <DependentUpon>LanguagePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Logs.cs" />
     <Compile Include="LogsState.cs" />
     <Compile Include="Model.cs" />
@@ -77,7 +83,15 @@
     <Compile Include="SettingPage.xaml.cs">
       <DependentUpon>SettingPage.xaml</DependentUpon>
     </Compile>
+    <Page Include="CryptoSoftwarePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ExtensionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LanguagePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
