@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -29,6 +30,8 @@ namespace easySaveV3
         Model model = new Model();
         SWF.FolderBrowserDialog ofd = new SWF.FolderBrowserDialog();
         //OpenFileDialog ofd = new OpenFileDialog();
+
+        delegate void delegateAddBackup( Backup bac01);
 
 
         public SavePage()
@@ -95,8 +98,12 @@ namespace easySaveV3
                     {
 
                         Backup backup = new Backup(TextBoxNameOfTheSave.Text, TextBoxSourcePath.Text, TextBoxTargetPath.Text, 1, TextBoxMirrorPath.Text);
-                        model.AddSave(backup);
 
+                        delegateAddBackup AddBackupdelg = model.AddSave;
+                        
+                        Thread AddBackup = new Thread(()=> AddBackupdelg(backup));
+
+                        AddBackup.Start();
 
                     }
                     else

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -22,6 +23,8 @@ namespace easySaveV3
 
         Dictionary dico = new Dictionary();
         Model model = new Model();
+
+        //delegate void delegateLoadSave(string delgString);
 
         public LoadPage()
         {
@@ -57,7 +60,11 @@ namespace easySaveV3
 
         private void SaveListButton_Click(object sender, RoutedEventArgs e)
         {
-            model.LoadSave(SaveList.SelectedItem.ToString());
+            
+                model.LoadSave(SaveList.SelectedItem.ToString());
+
+               
+           
         }
 
         void ChangePageText(int lang)
@@ -72,5 +79,7 @@ namespace easySaveV3
         {
 
         }
+
+
     }
 }

@@ -5,6 +5,7 @@ using Newtonsoft.Json;
 using System.Linq;
 using System.Diagnostics;
 using System.Windows;
+using System.Threading;
 
 namespace easySaveV3
 {
@@ -13,6 +14,8 @@ namespace easySaveV3
 
         ConfigHelper ConfH = new ConfigHelper();
         ProcessWrapper ProsW = new ProcessWrapper();
+
+        delegate void delegateLoad (string a, string b, bool c, bool d);
 
 
         //---------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -102,6 +105,7 @@ namespace easySaveV3
 
         public void CompleteSave(string inputpathsave, string inputDestToSave, bool copyDir, bool verif) //Function for full folder backup
         {
+            
             LogsState = new LogsState(nameStateFile);
             this.LogsState.saveState = true;
             Stopwatch stopwatch = new Stopwatch();
@@ -180,6 +184,20 @@ namespace easySaveV3
 
                 nbfiles++;
                 size += file.Length;
+
+
+
+
+                if (BlackListProtocolIsActive())
+                {
+                    SleepUntilProtocol();
+                }
+
+
+
+
+
+
 
             }
 
@@ -426,7 +444,15 @@ namespace easySaveV3
             if (backup.type == 1) //If the type is 1, it means it's a full backup
             {
                 nameStateFile = backup.nameToSave;
-                CompleteSave(backup.sourceRepository, backup.targetRepository, true, false); //Calling the function to run the full backup
+
+                delegateLoad loadsaveDeleg = CompleteSave;
+
+                Thread loadsaveThread = new Thread(() => loadsaveDeleg(backup.sourceRepository, backup.targetRepository, true, false));
+
+                loadsaveThread.Start();
+                
+
+                //CompleteSave(backup.sourceRepository, backup.targetRepository, true, false); //Calling the function to run the full backup
                 UpdateLogFile(backup.nameToSave, backup.sourceRepository, backup.targetRepository); //Call of the function to start the modifications of the log file
                 Console.WriteLine("Saved Successfull !"); //Satisfaction message display
             }
@@ -453,6 +479,33 @@ namespace easySaveV3
                     checkdatabackup = list.Length; //Allows to count the number of backups
                 }
             }
+        }
+
+        bool BlackListProtocolIsActive()
+        {
+
+            Process[] processes = Process.GetProcesses();
+
+            foreach (Process process in processes)
+            {
+                //MessageBox.Show(process.ProcessName);
+                //Console.WriteLine($"{process.ProcessName}");
+                if(process.ProcessName == "Calculator")
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
+
+        void SleepUntilProtocol()
+        {
+            while (BlackListProtocolIsActive())
+            {
+                Thread.Sleep(1000);
+            }
+            
         }
 
     }
