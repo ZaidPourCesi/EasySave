@@ -97,6 +97,7 @@ namespace easySaveV3
                         Backup backup = new Backup(TextBoxNameOfTheSave.Text, TextBoxSourcePath.Text, TextBoxTargetPath.Text, 1, TextBoxMirrorPath.Text);
                         model.AddSave(backup);
 
+
                     }
                     else
                     {

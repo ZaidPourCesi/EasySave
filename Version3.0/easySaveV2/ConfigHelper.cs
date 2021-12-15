@@ -40,6 +40,10 @@ namespace easySaveV3
             return (Attr = ConfigurationManager.AppSettings.Get(l));
         }
 
+       
+
+
+
         /*public void ReadSetting(string key)
         {
             try
@@ -203,7 +207,7 @@ namespace easySaveV3
             return listext;
         }
 
-        
+
 
         /*public bool RemoveExtension(string key, int ext)
         {
@@ -244,6 +248,22 @@ namespace easySaveV3
 
             return true;
         }*/
+
+        public bool GetAllExtToEncrypt(string ext)
+        {
+            Configuration configFile = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            AppSettingsSection extensionsSection = (AppSettingsSection)configFile.GetSection("CryptoSoftSettings");
+
+            if (extensionsSection.Settings[ext] == null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+
+        }
 
     }
 

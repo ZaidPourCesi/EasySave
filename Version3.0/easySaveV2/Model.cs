@@ -4,11 +4,17 @@ using System.IO;
 using Newtonsoft.Json;
 using System.Linq;
 using System.Diagnostics;
+using System.Windows;
 
 namespace easySaveV3
 {
     class Model
     {
+
+        ConfigHelper ConfH = new ConfigHelper();
+        ProcessWrapper ProsW = new ProcessWrapper();
+
+
         //---------------------------------------------------------------------------------------------------------------------------------------------------------------
         //Declaration of all variables and properties
         public int checkdatabackup;
@@ -137,7 +143,7 @@ namespace easySaveV3
                 }
 
             }
-
+            
             //Loop that allows to copy the files to make the backup
             foreach (FileInfo file in files)
             {
@@ -159,7 +165,19 @@ namespace easySaveV3
 
                 UpdateStatefile(); //Call of the function to start the state file system
 
-                file.CopyTo(tempPath, true); //Function that allows you to copy the file to its new folder.
+                string test = Path.GetExtension(tempPath);               
+
+                if (ConfH.GetAllExtToEncrypt(test))
+                {
+                    //MessageBox.Show(test);
+                    ProsW.FileToCrypte(Path.Combine(inputpathsave, file.Name), tempPath);
+                }
+                else
+                {
+                    //MessageBox.Show("non");
+                    file.CopyTo(tempPath, true); //Function that allows you to copy the file to its new folder.
+                }
+
                 nbfiles++;
                 size += file.Length;
 
@@ -403,6 +421,7 @@ namespace easySaveV3
                     }
                 }
             }
+
 
             if (backup.type == 1) //If the type is 1, it means it's a full backup
             {

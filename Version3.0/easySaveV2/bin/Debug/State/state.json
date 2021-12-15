@@ -46,5 +46,65 @@
     "progress": 0.0,
     "repositoryRest": 0,
     "totalSizeLeft": 0
+  },
+  {
+    "nameToSave": null,
+    "backupDate": "14/12/2021 10:45:42",
+    "saveState": false,
+    "sourceRepository": null,
+    "targetRepository": null,
+    "totalRepository": 0.0,
+    "totalSize": 0,
+    "progress": 0.0,
+    "repositoryRest": 0,
+    "totalSizeLeft": 0
+  },
+  {
+    "nameToSave": null,
+    "backupDate": "14/12/2021 14:41:55",
+    "saveState": false,
+    "sourceRepository": null,
+    "targetRepository": null,
+    "totalRepository": 0.0,
+    "totalSize": 0,
+    "progress": 0.0,
+    "repositoryRest": 0,
+    "totalSizeLeft": 0
+  },
+  {
+    "nameToSave": null,
+    "backupDate": "14/12/2021 15:29:02",
+    "saveState": false,
+    "sourceRepository": null,
+    "targetRepository": null,
+    "totalRepository": 0.0,
+    "totalSize": 0,
+    "progress": 0.0,
+    "repositoryRest": 0,
+    "totalSizeLeft": 0
+  },
+  {
+    "nameToSave": null,
+    "backupDate": "14/12/2021 16:33:20",
+    "saveState": false,
+    "sourceRepository": null,
+    "targetRepository": null,
+    "totalRepository": 0.0,
+    "totalSize": 0,
+    "progress": 0.0,
+    "repositoryRest": 0,
+    "totalSizeLeft": 0
+  },
+  {
+    "nameToSave": null,
+    "backupDate": "14/12/2021 20:15:33",
+    "saveState": false,
+    "sourceRepository": null,
+    "targetRepository": null,
+    "totalRepository": 0.0,
+    "totalSize": 0,
+    "progress": 0.0,
+    "repositoryRest": 0,
+    "totalSizeLeft": 0
   }
 ]

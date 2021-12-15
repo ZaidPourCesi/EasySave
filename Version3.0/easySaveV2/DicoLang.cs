@@ -85,6 +85,7 @@ namespace easySaveV3
         public string[] pV2_Setting_4 = { " CryptoSofware settings ", " Parametres de CryptoSofware " };
         public string[] pV2_Setting_5 = { " Dark Mode ", " Mode Sombre " };
         public string[] pV2_Setting_6 = { " Light Mode ", " Mode Lumineux " };
+        public string[] pV2_Setting_7 = { " Languages ", " Langues " };
 
         public string[] pV2_Setting_alert_1 = { " The application is in english ", " L'application est en français " };
 
@@ -107,7 +108,10 @@ namespace easySaveV3
 
         //CryptoSoftware Page
         public string[] pV3_CryptoPage_1 = { "- CryptoSoftware settings -", "- Parametres de CryptoSoftware -" };
-
+        public string[] pV3_CryptoPage_2 = { " Name ", " Nom " };
+        public string[] pV3_CryptoPage_3 = { " Extension ", " Extension " };
+        public string[] pV3_CryptoPage_4 = { " Add ", " Ajouter " };
+        public string[] pV3_CryptoPage_5 = { " Del ", " Supr " };
 
         //Language Page
         public string[] pV3_Language_1 = { "- Languages -", "- Langues -" };

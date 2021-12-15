@@ -26,5 +26,40 @@
     "type": 1,
     "mirrorRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v2\\yreyeyeyryyeryey\\Version2.0\\easySaveV2\\Mirror",
     "nameToSave": "test cesi plus plus"
+  },
+  {
+    "sourceRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v3\\v3 1_0 first clone\\Version3.0\\easySaveV2\\Source",
+    "targetRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v3\\v3 1_0 first clone\\Version3.0\\easySaveV2\\Destination",
+    "type": 1,
+    "mirrorRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v3\\v3 1_0 first clone\\Version3.0\\easySaveV2\\Destination",
+    "nameToSave": "test ggr"
+  },
+  {
+    "sourceRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v3\\v3 1_0 first clone\\Version3.0\\easySaveV2\\Source",
+    "targetRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v3\\v3 1_0 first clone\\Version3.0\\easySaveV2\\Destination",
+    "type": 1,
+    "mirrorRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v3\\v3 1_0 first clone\\Version3.0\\easySaveV2\\Destination",
+    "nameToSave": "salut"
+  },
+  {
+    "sourceRepository": "D:\\crypto",
+    "targetRepository": "D:\\crypto\\Debug",
+    "type": 1,
+    "mirrorRepository": "D:\\crypto\\Debug",
+    "nameToSave": "testrr"
+  },
+  {
+    "sourceRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v3\\v3 1_0 first clone\\Version3.0\\easySaveV2\\Source",
+    "targetRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v3\\v3 1_0 first clone\\Version3.0\\easySaveV2\\Destination",
+    "type": 1,
+    "mirrorRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v3\\v3 1_0 first clone\\Version3.0\\easySaveV2\\Destination",
+    "nameToSave": "sge"
+  },
+  {
+    "sourceRepository": "D:\\DOCUMENTS\\image",
+    "targetRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v3\\v3 1_0 first clone\\Version3.0\\easySaveV2\\Destination",
+    "type": 1,
+    "mirrorRepository": "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v3\\v3 1_0 first clone\\Version3.0\\easySaveV2\\Destination",
+    "nameToSave": "un giga"
   }
 ]

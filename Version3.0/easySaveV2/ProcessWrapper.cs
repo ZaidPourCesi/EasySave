@@ -4,17 +4,28 @@ using System.Threading;
 using System.Collections.Generic;
 using System.Text;
 using System.Configuration;
+using System.Windows;
 
-namespace ProcessWrapperBETA
+namespace easySaveV3
 {
     public class ProcessWrapper
     {
-        private ProcessStartInfo startingInfo;
-        private Process processToRun;
+
+        ConfigHelper ConfH = new ConfigHelper();
+
+        //private ProcessStartInfo startingInfo;
+        ProcessStartInfo startingInfoX = new ProcessStartInfo(@"D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\crypto\Debug\netcoreapp3.1\CryptoSoftware.exe");
+        private Process processToRun = new Process();
+        private string _source = string.Empty;
+        private string _target = string.Empty;
+        private string _key = "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v3\\v3 1_0 first clone\\Version3.0\\easySaveV2";
+
+
 
         private string GetProcessPath()
         {
-            return ("C:\\TESTZONE\\CryptoSoftProsit\\CryptoSoftware\\CryptoSoftware\\bin\\Debug\\netcoreapp3.1"); // rendre modulable
+            string path = ConfH.GetParticularKeyValue("cryptoSoftWarePath");
+            return (path); // rendre modulable
         }                                                                                                    // algo de recherche de path ?
                                                                                                              // lecture dans un fichier dédié ?
         private string GetProcessExe()
@@ -24,7 +35,9 @@ namespace ProcessWrapperBETA
 
         private string GetProcessArguments()
         {
-            return ("Cible.txt Reverse.txt Config.txt"); // rendre modulable
+
+            //return ('"'+ _source +"\" \"" + _target + "Michel.txt\" " + ConfH.GetParticularKeyValue("encryptionKey")); // rendre modulable
+            return ('"' + _source + "\" \"" + _target + "\" \"" + _key + "\""); // rendre modulable
         }                                                // lecture dans un fichier dédié ?
 
         // Idée : Fichier config.txt contenant les infos necessaires (chemin_exe = C:\dossier\sousdossier\ ; nom_exe =  abc.exe)
@@ -32,19 +45,22 @@ namespace ProcessWrapperBETA
         // identifier chaque info par une chaine de caractère la définissant (chemin_exe)
         // copier la chaine correspondante et l'enregistrer dans l'objet processWrapper (abc.exe)
 
+        
+
         public void InitializeStartInfoProcess()
         {
-            startingInfo = new ProcessStartInfo(GetProcessExe()); // chopper le non de l'exe
-            startingInfo.UseShellExecute = true;
-            startingInfo.WorkingDirectory = GetProcessPath(); // chopper le path de l'executable
-            startingInfo.Arguments = GetProcessArguments(); // chopper les arguments : input.txt output.txt (config.txt)
+            // chopper le nom de l'exe
+            startingInfoX.UseShellExecute = true;
+            startingInfoX.WorkingDirectory = GetProcessPath(); // chopper le path de l'executable
+            startingInfoX.Arguments = GetProcessArguments(); // chopper les arguments : input.txt output.txt (config.txt)
         }
 
         public void InitializeProcess()
         {
             processToRun = new Process();
-            processToRun.StartInfo = startingInfo;
+            processToRun.StartInfo = startingInfoX;
             processToRun.EnableRaisingEvents = true;
+            //MessageBox.Show();
             processToRun.Start();
         }
 
@@ -52,14 +68,29 @@ namespace ProcessWrapperBETA
         {
             processToRun.Close();
             processToRun.Dispose();
+            //processToRun.Kill();
         }
 
         public void ProcessRoutine()
         {
             InitializeStartInfoProcess();
+            
             InitializeProcess();
             EndingProcess();
         }
+
+
+        public void FileToCrypte(string source, string target)
+        {
+            //MessageBox.Show(source + " : " + target + " : " + GetProcessPath() + " : " + GetProcessExe());
+            _source = source;
+            _target = target;
+            _key = @"D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\keytest.txt";
+            ProcessRoutine();
+            //MessageBox.Show(GetProcessArguments());
+
+        }
+
     }
 }
 

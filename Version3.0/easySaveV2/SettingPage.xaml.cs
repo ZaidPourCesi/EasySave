@@ -31,23 +31,7 @@ namespace easySaveV3
         }
 
 
-        private void LightButton_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void DarkButton_Click(object sender, RoutedEventArgs e)
-        {
-            /*Background = new SolidColorBrush(Color.FromArgb(0xFF, 0x1B, 0x1B, 0x1B));
-            Foreground = new SolidColorBrush(Color.FromArgb(0xFF, 0x55, 0x77, 0xD3));
-            BlBoutton.Background = new SolidColorBrush(Color.FromArgb(0xFF, 0x80, 0x80, 0x80));
-            BlBoutton.Foreground = new SolidColorBrush(Color.FromArgb(0xFF, 0x71, 0x71, 0xC5));
-
-            foreach (var child in ExtensionPage.Children.OfType<System.Windows.Controls.Label>())
-            {
-            }*/
-            
-        }
+       
 
         private void Setting_ReturnButton_Click(object sender, RoutedEventArgs e)
         {
@@ -62,8 +46,7 @@ namespace easySaveV3
             ExBoutton.Content = dico.pV2_Setting_3[lang];
             Setting_ReturnButton.Content = dico.pV2_0[lang];
             CryptBoutton.Content = dico.pV2_Setting_4[lang];
-            DarkButton.Content = dico.pV2_Setting_5[0];
-            LightButton.Content = dico.pV2_Setting_6[1];
+            LangBoutton.Content = dico.pV2_Setting_7[lang];
         }
 
 
@@ -92,5 +75,7 @@ namespace easySaveV3
             this.Close();
             languagePage.Show();
         }
+
+       
     }
 }

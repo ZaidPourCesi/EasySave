@@ -116,6 +116,11 @@ namespace easySaveV3
         {
             CryptoSoftwareLabel.Text = dico.pV3_CryptoPage_1[lang];
             Crypto_ReturnButton.Content = dico.pV2_0[lang];
+            keyLabel.Content = dico.pV3_CryptoPage_2[lang];
+            ExtensionLabel.Content = dico.pV3_CryptoPage_3[lang];
+
+            addButton.Content = dico.pV3_CryptoPage_4[lang];
+            delButton.Content = dico.pV3_CryptoPage_5[lang];
 
             pathTextBox.Text = ConfH.GetParticularKeyValue("cryptoSoftWarePath");
         }

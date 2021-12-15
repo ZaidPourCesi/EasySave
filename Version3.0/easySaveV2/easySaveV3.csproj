@@ -77,6 +77,7 @@
     <Compile Include="Logs.cs" />
     <Compile Include="LogsState.cs" />
     <Compile Include="Model.cs" />
+    <Compile Include="ProcessWrapper.cs" />
     <Compile Include="SavePage.xaml.cs">
       <DependentUpon>SavePage.xaml</DependentUpon>
     </Compile>
@@ -148,6 +149,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
