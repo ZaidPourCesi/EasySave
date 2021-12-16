@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:easySaveV3"
         mc:Ignorable="d"
-        Title="ProgressBars" Height="450" Width="800"
+        Title="ProgressBars" Height="200" Width="420"
         ContentRendered="Window_ContentRendered">
     <Grid>
-        <ProgressBar HorizontalAlignment="Left" Height="21" Margin="10,389,0,0" VerticalAlignment="Top" Width="355" Minimum="0" Maximum="100" x:Name="savepbar"/>
-        <TextBlock Text="{Binding ElementName=savepbar, Path=Value, StringFormat={}{0:0}%}"  Margin="173,391,584.6,2" Width="36" />
+        <ProgressBar HorizontalAlignment="Left" Height="25" Margin="30,70,0,0" VerticalAlignment="Top" Width="355" Minimum="0" Maximum="100" x:Name="savepbar"/>
+        <TextBlock Text="{Binding ElementName=savepbar, Path=Value, StringFormat={}{0:0}%}"  Margin="194,72,170,74" />
     </Grid>
 </Window>
