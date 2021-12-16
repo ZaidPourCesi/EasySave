@@ -52,7 +52,10 @@ namespace easySaveV3
 
         private void Open_blacklist(object sender, RoutedEventArgs e)//Function that allows the button to open the file of blacklisted software
         {
-            System.Diagnostics.Process.Start("notepad.exe", @"Blacklist.json");
+            //System.Diagnostics.Process.Start("notepad.exe", @"Blacklist.json");
+            BlackListePage blackListPage = new BlackListePage();
+            this.Close();
+            blackListPage.Show();
         }
 
         private void ExBoutton_Click(object sender, RoutedEventArgs e)

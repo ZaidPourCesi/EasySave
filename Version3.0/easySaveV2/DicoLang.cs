@@ -116,8 +116,15 @@ namespace easySaveV3
         //Language Page
         public string[] pV3_Language_1 = { "- Languages -", "- Langues -" };
 
+        //BlackList Page
+        public string[] pV3_BlackList_1 = { "- BlackList -", "- Liste Noire -" };
+        public string[] pV3_BlackList_2 = { " Add ", " Ajouter " };
+        public string[] pV3_BlackList_3 = { " Del ", " Suprimer " };
+        public string[] pV3_BlackList_4 = { " BlackLsit ", " Liste Noire " };
+        public string[] pV3_BlackList_5 = { " Name of processus ", " Nom du processus " };
+        public string[] pV3_BlackList_6 = { " Refresh ", " Rafraichir " };
 
-
+        public string[] pV3_BlackList_alert_1 = { " Name ", " Nom " };
 
         public int ChooseLanguage()//v1
         {

@@ -1,0 +1,14 @@
+﻿<Window x:Class="easySaveV3.ProgressBars"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:easySaveV3"
+        mc:Ignorable="d"
+        Title="ProgressBars" Height="450" Width="800"
+        ContentRendered="Window_ContentRendered">
+    <Grid>
+        <ProgressBar HorizontalAlignment="Left" Height="21" Margin="10,389,0,0" VerticalAlignment="Top" Width="355" Minimum="0" Maximum="100" x:Name="savepbar"/>
+        <TextBlock Text="{Binding ElementName=savepbar, Path=Value, StringFormat={}{0:0}%}"  Margin="173,391,584.6,2" Width="36" />
+    </Grid>
+</Window>

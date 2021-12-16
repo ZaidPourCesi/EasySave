@@ -12,12 +12,12 @@
         <ListBox x:Name="extBanList" HorizontalAlignment="Left" Height="110" Margin="79,250,0,0" VerticalAlignment="Top" Width="300" SelectionChanged="extBanList_SelectionChanged"/>
         <Button x:Name="RefreshExtensionButton" Content="Refresh" HorizontalAlignment="Left" Margin="541,73,0,0" VerticalAlignment="Top" Width="75" Click="RefreshExtensionButton_Click"/>
         <Button x:Name="Etension_ReturnButton" Content="Return" HorizontalAlignment="Left" Margin="10,380,0,0" VerticalAlignment="Top" Width="90" Height="25"  Click="Extension_ReturnButton_Click" FontSize="16"/>
-        <Button x:Name="addExtPrio" Content="Add" HorizontalAlignment="Left" Margin="596,147,0,0" VerticalAlignment="Top" Width="75" Click="addExtPrio_Click"/>
+        <Button x:Name="addExtPrio" Content="Add" HorizontalAlignment="Left" Margin="596,163,0,0" VerticalAlignment="Top" Width="75" Click="addExtPrio_Click"/>
         <TextBox x:Name="KeyExtPrio" HorizontalAlignment="Left" Height="23" Margin="448,135,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="KeyExtBan" HorizontalAlignment="Left" Height="23" Margin="448,284,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="SuprExtBan" Content="Del" HorizontalAlignment="Left" Margin="616,309,0,0" VerticalAlignment="Top" Width="75" Click="SuprExtBan_Click"/>
-        <Button x:Name="SuprExtPrio" Content="Del" HorizontalAlignment="Left" Margin="686,147,0,0" VerticalAlignment="Top" Width="75" Click="SuprExtPrio_Click"/>
-        <Button x:Name="AddExtBan" Content="Add" HorizontalAlignment="Left" Margin="616,284,0,0" VerticalAlignment="Top" Width="75" Click="AddExtBan_Click"/>
+        <Button x:Name="SuprExtBan" Content="Del" HorizontalAlignment="Left" Margin="686,306,0,0" VerticalAlignment="Top" Width="75" Click="SuprExtBan_Click"/>
+        <Button x:Name="SuprExtPrio" Content="Del" HorizontalAlignment="Left" Margin="686,163,0,0" VerticalAlignment="Top" Width="75" Click="SuprExtPrio_Click"/>
+        <Button x:Name="AddExtBan" Content="Add" HorizontalAlignment="Left" Margin="596,306,0,0" VerticalAlignment="Top" Width="75" Click="AddExtBan_Click"/>
         <TextBox x:Name="ValueExtPrio" HorizontalAlignment="Left" Height="23" Margin="448,184,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="ValueExtBan" HorizontalAlignment="Left" Height="23" Margin="448,329,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="titleExtPrio" Content="Prioritary extensions" HorizontalAlignment="Left" Margin="70,80,0,0" VerticalAlignment="Top" FontSize="15"/>

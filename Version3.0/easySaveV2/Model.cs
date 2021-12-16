@@ -11,9 +11,11 @@ namespace easySaveV3
 {
     class Model
     {
-
+        ProgressBars progressBars = new ProgressBars();
         ConfigHelper ConfH = new ConfigHelper();
         ProcessWrapper ProsW = new ProcessWrapper();
+        ProgressBars progg = new ProgressBars();
+        
 
         delegate void delegateLoad (string a, string b, bool c, bool d);
 
@@ -38,6 +40,10 @@ namespace easySaveV3
         public string sourceFile { get; set; }
         public string typeString { get; set; }
         public long totalSize { get; set; }
+
+        public long SizeLeft { get; set; }
+
+        public long SizeLeft100 { get; set; }
         public TimeSpan timeTransfert { get; set; }
         public string userMenuInput { get; set; }
         public string mirrorRepository { get; set; }
@@ -145,12 +151,17 @@ namespace easySaveV3
                         nbfilesmax++;
                     }
                 }
+                ConfH.AddUpdateAppSettings("RemainingLength", totalSize.ToString());
+                //MessageBox.Show();
 
             }
             
             //Loop that allows to copy the files to make the backup
             foreach (FileInfo file in files)
             {
+                SizeLeft = Int64.Parse(ConfH.GetParticularKeyValue("RemainingLength")) - file.Length;
+                ConfH.AddUpdateAppSettings("RemainingLength", SizeLeft.ToString());
+
                 string tempPath = Path.Combine(inputDestToSave, file.Name);
 
                 if (size > 0)
@@ -184,9 +195,15 @@ namespace easySaveV3
 
                 nbfiles++;
                 size += file.Length;
+                
+                SizeLeft100 = (Int64.Parse(ConfH.GetParticularKeyValue("RemainingLength"))*100)/ Int64.Parse(totalSize.ToString());
+                ConfH.AddUpdateAppSettings("RemainingLength100", SizeLeft100.ToString());
+                
+                
+                //MessageBox.Show(SizeLeft100.ToString());
+                Thread.Sleep(1000);
 
-
-
+                //progb.
 
                 if (BlackListProtocolIsActive())
                 {
@@ -485,15 +502,23 @@ namespace easySaveV3
         {
 
             Process[] processes = Process.GetProcesses();
+            List<string> namesOfBlackList = ConfH.UpdateListSetting("ProcessusBlackList");
 
             foreach (Process process in processes)
             {
-                //MessageBox.Show(process.ProcessName);
-                //Console.WriteLine($"{process.ProcessName}");
-                if(process.ProcessName == "Calculator")
+                
+                foreach (string nameOBL in namesOfBlackList)
                 {
-                    return true;
+                    int found = 0;
+                    found = nameOBL.ToString().IndexOf(" : ");
+
+                    if (process.ProcessName == nameOBL.ToString().Substring(0, found))
+                    {
+
+                        return true;
+                    }
                 }
+
             }
 
             return false;
@@ -507,6 +532,8 @@ namespace easySaveV3
             }
             
         }
+
+
 
     }
 

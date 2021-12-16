@@ -12,22 +12,33 @@ namespace easySaveV3
     {
 
         ConfigHelper ConfH = new ConfigHelper();
+        //static string test = @"D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_3\CryptoSoftProjett\CryptoSoftProsit\CryptoSoftware\CryptoSoftware\bin\Debug\netcoreapp3.1\CryptoSoftware.exe";
 
         //private ProcessStartInfo startingInfo;
-        ProcessStartInfo startingInfoX = new ProcessStartInfo(@"D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\crypto\Debug\netcoreapp3.1\CryptoSoftware.exe");
+        //ProcessStartInfo startingInfoX = new ProcessStartInfo(test);
         private Process processToRun = new Process();
         private string _source = string.Empty;
         private string _target = string.Empty;
-        private string _key = "D:\\Visual Studio Professional 2019\\projet\\p1\\p2 cs\\v3\\v3 1_0 first clone\\Version3.0\\easySaveV2";
+        private string _key = "";
 
 
 
         private string GetProcessPath()
         {
-            string path = ConfH.GetParticularKeyValue("cryptoSoftWarePath");
+            string path = '"'+ ConfH.GetParticularKeyValue("cryptoSoftWarePath") +'"';
             return (path); // rendre modulable
-        }                                                                                                    // algo de recherche de path ?
-                                                                                                             // lecture dans un fichier dédié ?
+        }
+
+        private ProcessStartInfo GetProcessPath2()
+        {
+            string path = '"' + ConfH.GetParticularKeyValue("cryptoSoftWarePath") + '"';
+            ProcessStartInfo startingInfoX2 = new ProcessStartInfo(path);
+            
+            return (startingInfoX2); // rendre modulable
+        }
+        
+        // algo de recherche de path ?
+         // lecture dans un fichier dédié ?
         private string GetProcessExe()
         {
             return ("CryptoSoftware.exe"); // rendre modulable
@@ -37,7 +48,7 @@ namespace easySaveV3
         {
 
             //return ('"'+ _source +"\" \"" + _target + "Michel.txt\" " + ConfH.GetParticularKeyValue("encryptionKey")); // rendre modulable
-            return ('"' + _source + "\" \"" + _target + "\" \"" + _key + "\""); // rendre modulable
+            return ('"' + _source + "\" \"" + _target + "\" " + _key); // rendre modulable
         }                                                // lecture dans un fichier dédié ?
 
         // Idée : Fichier config.txt contenant les infos necessaires (chemin_exe = C:\dossier\sousdossier\ ; nom_exe =  abc.exe)
@@ -47,20 +58,24 @@ namespace easySaveV3
 
         
 
-        public void InitializeStartInfoProcess()
+        public ProcessStartInfo InitializeStartInfoProcess(ProcessStartInfo test)
         {
             // chopper le nom de l'exe
-            startingInfoX.UseShellExecute = true;
-            startingInfoX.WorkingDirectory = GetProcessPath(); // chopper le path de l'executable
-            startingInfoX.Arguments = GetProcessArguments(); // chopper les arguments : input.txt output.txt (config.txt)
+            test.UseShellExecute = true;
+            test.WorkingDirectory = GetProcessPath(); // chopper le path de l'executable
+            test.Arguments = GetProcessArguments(); // chopper les arguments : input.txt output.txt (config.txt)
+            //test.WindowStyle = ProcessWindowStyle.Hidden;
+            test.CreateNoWindow = true;
+
+            return test;
         }
 
-        public void InitializeProcess()
+        public void InitializeProcess(ProcessStartInfo test)
         {
             processToRun = new Process();
-            processToRun.StartInfo = startingInfoX;
+            processToRun.StartInfo = test;
             processToRun.EnableRaisingEvents = true;
-            //MessageBox.Show();
+            //MessageBox.Show(startingInfoX.WorkingDirectory);
             processToRun.Start();
         }
 
@@ -68,14 +83,15 @@ namespace easySaveV3
         {
             processToRun.Close();
             processToRun.Dispose();
-            //processToRun.Kill();
+            
+            
         }
 
         public void ProcessRoutine()
         {
-            InitializeStartInfoProcess();
             
-            InitializeProcess();
+            
+            InitializeProcess(InitializeStartInfoProcess(GetProcessPath2()));
             EndingProcess();
         }
 
@@ -85,7 +101,7 @@ namespace easySaveV3
             //MessageBox.Show(source + " : " + target + " : " + GetProcessPath() + " : " + GetProcessExe());
             _source = source;
             _target = target;
-            _key = @"D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\v3 1_0 first clone\Version3.0\easySaveV2\keytest.txt";
+            _key = ConfH.GetParticularKeyValue("encryptionKey");
             ProcessRoutine();
             //MessageBox.Show(GetProcessArguments());
 
