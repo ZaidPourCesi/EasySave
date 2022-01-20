@@ -16,7 +16,6 @@
         <Label x:Name="titleBL" Content="Prioritary extensions" HorizontalAlignment="Left" Margin="35,93,0,0" VerticalAlignment="Top" FontSize="15"/>
         <Label x:Name="nameBLLabel" Content="Name" HorizontalAlignment="Left" Margin="413,147,0,0" VerticalAlignment="Top"/>
         <Button x:Name="BlackList_ReturnButton" Content="Return" HorizontalAlignment="Left" Margin="10,380,0,0" VerticalAlignment="Top" Width="90" Height="25"  Click="BlackList_ReturnButton_Click" FontSize="16"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="611,331,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
 
 
     </Grid>

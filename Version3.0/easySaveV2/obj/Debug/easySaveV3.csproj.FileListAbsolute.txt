@@ -108,3 +108,99 @@ D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\clone 1_3\Version3.0\easyS
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\clone 1_3\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.CopyComplete
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\clone 1_3\Version3.0\easySaveV2\obj\Debug\easySaveV3.exe
 D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\clone 1_3\Version3.0\easySaveV2\obj\Debug\easySaveV3.pdb
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\bin\Debug\easySaveV3.exe.config
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\bin\Debug\easySaveV3.exe
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\bin\Debug\easySaveV3.pdb
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.AssemblyReference.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\BlackListePage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\CryptoSoftwarePage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\ExtensionPage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\LanguagePage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\LoadPage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\MainWindow.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\ProgressBars.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\SavePage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\SettingPage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\App.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\easySaveV3_MarkupCompile.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\easySaveV3_MarkupCompile.lref
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\BlackListePage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\CryptoSoftwarePage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\ExtensionPage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\LanguagePage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\LoadPage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\MainWindow.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\ProgressBars.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\SavePage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\SettingPage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.g.resources
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.Properties.Resources.resources
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.GenerateResource.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.CoreCompileInputs.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.CopyComplete
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.exe
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\dernier clone\Version3.0\easySaveV2\obj\Debug\easySaveV3.pdb
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\bin\Debug\easySaveV3.exe.config
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\bin\Debug\easySaveV3.exe
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\bin\Debug\easySaveV3.pdb
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.AssemblyReference.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\BlackListePage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\CryptoSoftwarePage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\ExtensionPage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\LanguagePage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\LoadPage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\MainWindow.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\ProgressBars.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\SavePage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\SettingPage.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\App.g.cs
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\easySaveV3_MarkupCompile.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\easySaveV3_MarkupCompile.lref
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\BlackListePage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\CryptoSoftwarePage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\ExtensionPage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\LanguagePage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\LoadPage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\MainWindow.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\ProgressBars.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\SavePage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\SettingPage.baml
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\easySaveV3.g.resources
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\easySaveV3.Properties.Resources.resources
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.GenerateResource.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.CoreCompileInputs.cache
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.CopyComplete
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\easySaveV3.exe
+D:\Visual Studio Professional 2019\projet\p1\p2 cs\v3\final\Version3.0\easySaveV2\obj\Debug\easySaveV3.pdb
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\bin\Debug\easySaveV3.exe.config
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\bin\Debug\easySaveV3.exe
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\bin\Debug\easySaveV3.pdb
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.AssemblyReference.cache
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\BlackListePage.g.cs
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\CryptoSoftwarePage.g.cs
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\ExtensionPage.g.cs
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\LanguagePage.g.cs
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\LoadPage.g.cs
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\MainWindow.g.cs
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\ProgressBars.g.cs
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\SavePage.g.cs
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\SettingPage.g.cs
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\App.g.cs
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\easySaveV3_MarkupCompile.cache
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\easySaveV3_MarkupCompile.lref
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\BlackListePage.baml
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\CryptoSoftwarePage.baml
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\ExtensionPage.baml
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\LanguagePage.baml
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\LoadPage.baml
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\MainWindow.baml
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\ProgressBars.baml
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\SavePage.baml
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\SettingPage.baml
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\easySaveV3.g.resources
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\easySaveV3.Properties.Resources.resources
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.GenerateResource.cache
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.CoreCompileInputs.cache
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\easySaveV3.csproj.CopyComplete
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\easySaveV3.exe
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\easySaveV3.pdb

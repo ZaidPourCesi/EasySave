@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+	
+	<configSections>
+		<section name="ProcessusBlackList" type="System.Configuration.AppSettingsSection" />
+		<section name="ExtensionsSettings" type="System.Configuration.AppSettingsSection" />
+		<section name="ExtensionsBanSettings" type="System.Configuration.AppSettingsSection" />
+		<section name="ErrorExtension" type="System.Configuration.AppSettingsSection" />
+		<section name="CryptoSoftSettings" type="System.Configuration.AppSettingsSection" />
+	</configSections>
+	<ProcessusBlackList>
+  <add key="Calculator" value="Calculator" />
+  <add key="Calculator2" value="Calculator2" />
+ </ProcessusBlackList>
+	<ExtensionsSettings>
+		<add key="extension1" value=".txt" />
+		<add key="extension2" value=".png" />
+		<add key="extension3" value=".mp3" />
+		<add key="extension4" value=".jpg" />

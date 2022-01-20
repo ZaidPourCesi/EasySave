@@ -64,8 +64,8 @@ namespace easySaveV3
             test.UseShellExecute = true;
             test.WorkingDirectory = GetProcessPath(); // chopper le path de l'executable
             test.Arguments = GetProcessArguments(); // chopper les arguments : input.txt output.txt (config.txt)
-            //test.WindowStyle = ProcessWindowStyle.Hidden;
-            test.CreateNoWindow = true;
+            test.WindowStyle = ProcessWindowStyle.Hidden;
+            //test.CreateNoWindow = true;
 
             return test;
         }

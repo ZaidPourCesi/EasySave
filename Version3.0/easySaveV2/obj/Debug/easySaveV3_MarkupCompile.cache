@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\zidou\OneDrive\Desktop\g\Version3.0\easySaveV2\obj\Debug\
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\obj\Debug\
 easySaveV3
 none
 false
 DEBUG;TRACE
-C:\Users\zidou\OneDrive\Desktop\g\Version3.0\easySaveV2\App.xaml
+E:\Etude\Cesi\A3\PLEUR\Version3.0\easySaveV2\App.xaml
 9214418752
 
-22848329322
-17547275816
+211690688689
+17938539453
 BlackListePage.xaml;CryptoSoftwarePage.xaml;ExtensionPage.xaml;LanguagePage.xaml;LoadPage.xaml;MainWindow.xaml;ProgressBars.xaml;SavePage.xaml;SettingPage.xaml;
 
-True
+False
 

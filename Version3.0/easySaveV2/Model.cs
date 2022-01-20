@@ -201,7 +201,7 @@ namespace easySaveV3
                 
                 
                 //MessageBox.Show(SizeLeft100.ToString());
-                Thread.Sleep(1000);
+                //Thread.Sleep(1000);
 
                 //progb.
 

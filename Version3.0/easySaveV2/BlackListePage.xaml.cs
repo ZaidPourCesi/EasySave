@@ -131,10 +131,6 @@ namespace easySaveV3
             RefreshBlakListButton.Content = dico.pV3_BlackList_6[lang];
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            ProgressBars progressBars = new ProgressBars();
-            progressBars.Show();
-        }
+        
     }
 }
