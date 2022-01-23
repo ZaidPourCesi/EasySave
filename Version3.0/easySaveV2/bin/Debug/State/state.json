@@ -250,5 +250,53 @@
     "progress": 0.0,
     "repositoryRest": 0,
     "totalSizeLeft": 0
+  },
+  {
+    "nameToSave": null,
+    "backupDate": "22/01/2022 13:53:20",
+    "saveState": false,
+    "sourceRepository": null,
+    "targetRepository": null,
+    "totalRepository": 0.0,
+    "totalSize": 0,
+    "progress": 0.0,
+    "repositoryRest": 0,
+    "totalSizeLeft": 0
+  },
+  {
+    "nameToSave": null,
+    "backupDate": "22/01/2022 19:35:26",
+    "saveState": false,
+    "sourceRepository": null,
+    "targetRepository": null,
+    "totalRepository": 0.0,
+    "totalSize": 0,
+    "progress": 0.0,
+    "repositoryRest": 0,
+    "totalSizeLeft": 0
+  },
+  {
+    "nameToSave": null,
+    "backupDate": "22/01/2022 20:42:30",
+    "saveState": false,
+    "sourceRepository": null,
+    "targetRepository": null,
+    "totalRepository": 0.0,
+    "totalSize": 0,
+    "progress": 0.0,
+    "repositoryRest": 0,
+    "totalSizeLeft": 0
+  },
+  {
+    "nameToSave": null,
+    "backupDate": "22/01/2022 19:20:43",
+    "saveState": false,
+    "sourceRepository": null,
+    "targetRepository": null,
+    "totalRepository": 0.0,
+    "totalSize": 0,
+    "progress": 0.0,
+    "repositoryRest": 0,
+    "totalSizeLeft": 0
   }
 ]

@@ -10,5 +10,6 @@
     <Grid>
         <ProgressBar HorizontalAlignment="Left" Height="25" Margin="30,70,0,0" VerticalAlignment="Top" Width="355" Minimum="0" Maximum="100" x:Name="savepbar"/>
         <TextBlock Text="{Binding ElementName=savepbar, Path=Value, StringFormat={}{0:0}%}"  Margin="194,72,170,74" />
+        <Button x:Name="btnPlayPause" Content="Pause" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="310,100,0,0" Click="btnPlayPause_Click"/>
     </Grid>
 </Window>

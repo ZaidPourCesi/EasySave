@@ -65,6 +65,20 @@ namespace easySaveV3
             savepbar.Value = e.ProgressPercentage;
         }
 
-
+        private void btnPlayPause_Click(object sender, RoutedEventArgs e)
+        {
+            if (Model.loadsaveThread.ThreadState == ThreadState.Running)
+            {
+                Model.loadsaveThread.Suspend();
+                btnPlayPause.Content = "Play";
+            }
+                
+            else if (Model.loadsaveThread.ThreadState == ThreadState.Suspended)
+            {
+                Model.loadsaveThread.Resume();
+                btnPlayPause.Content = "Pause";
+            }
+                
+        }
     }
 }

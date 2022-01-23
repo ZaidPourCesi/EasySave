@@ -36,8 +36,8 @@ namespace easySaveV3
 
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
-        {
-            
+        {            
+
             savePage.Show();
             this.Close();
         }

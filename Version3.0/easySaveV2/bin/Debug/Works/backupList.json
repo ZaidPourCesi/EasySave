@@ -47,5 +47,33 @@
     "type": 1,
     "mirrorRepository": "E:\\Etude\\Cesi\\A3\\TESTREC",
     "nameToSave": "test"
+  },
+  {
+    "sourceRepository": "E:\\fiverr pending\\C_ Cinema Project",
+    "targetRepository": "E:\\New folder",
+    "type": 1,
+    "mirrorRepository": "E:\\New folder",
+    "nameToSave": "x save 1"
+  },
+  {
+    "sourceRepository": "E:\\fiverr pending\\C_ Cinema Project",
+    "targetRepository": "E:\\dest",
+    "type": 1,
+    "mirrorRepository": "E:\\dest",
+    "nameToSave": "x save 2"
+  },
+  {
+    "sourceRepository": "E:\\Pics",
+    "targetRepository": "E:\\dest",
+    "type": 1,
+    "mirrorRepository": "E:\\dest",
+    "nameToSave": "pics save"
+  },
+  {
+    "sourceRepository": "E:\\Etude\\Cesi\\A3\\testEN",
+    "targetRepository": "E:\\Etude\\Cesi\\A3\\TESTREC",
+    "type": 1,
+    "mirrorRepository": "E:\\Etude\\Cesi\\A3\\TESTREC",
+    "nameToSave": "testing"
   }
 ]

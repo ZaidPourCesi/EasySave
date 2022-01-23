@@ -20,7 +20,7 @@ namespace easySaveV3
     public partial class SettingPage : Window
     {
 
-
+        ConfigHelper ConfH = new ConfigHelper();
         Dictionary dico = new Dictionary();
 
 
@@ -28,6 +28,7 @@ namespace easySaveV3
         {
             InitializeComponent();
             ChangePageText(dico.SelectedLang());
+            
         }
 
 
@@ -79,6 +80,23 @@ namespace easySaveV3
             languagePage.Show();
         }
 
-       
+        private void Window_Activated(object sender, EventArgs e)
+        {
+            txtFileSize.Text = ConfH.GetParticularKeyValue("MaxFileSizeLimit");
+        }
+
+        private void btnSaveLimit_Click(object sender, RoutedEventArgs e)
+        {
+            int limit;
+            if (Int32.TryParse(txtFileSize.Text, out limit))
+            {
+                ConfH.AddUpdateAppSettings("MaxFileSizeLimit", limit.ToString());
+                MessageBox.Show("Saved File Size Limit.");
+            }
+            else
+            {
+                MessageBox.Show("Value is not valid.");
+            }
+        }
     }
 }

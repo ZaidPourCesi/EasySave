@@ -15,9 +15,11 @@ namespace easySaveV3
         ConfigHelper ConfH = new ConfigHelper();
         ProcessWrapper ProsW = new ProcessWrapper();
         ProgressBars progg = new ProgressBars();
-        
+        public static Thread loadsaveThread;
 
-        delegate void delegateLoad (string a, string b, bool c, bool d);
+
+
+        delegate void delegateLoad(string a, string b, bool c, bool d);
 
 
         //---------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -111,7 +113,9 @@ namespace easySaveV3
 
         public void CompleteSave(string inputpathsave, string inputDestToSave, bool copyDir, bool verif) //Function for full folder backup
         {
-            
+            int MAX_SIZE_LIMIT_IN_KB = 0;
+            Int32.TryParse(ConfH.GetParticularKeyValue("MaxFileSizeLimit"), out MAX_SIZE_LIMIT_IN_KB);
+
             LogsState = new LogsState(nameStateFile);
             this.LogsState.saveState = true;
             Stopwatch stopwatch = new Stopwatch();
@@ -155,7 +159,7 @@ namespace easySaveV3
                 //MessageBox.Show();
 
             }
-            
+
             //Loop that allows to copy the files to make the backup
             foreach (FileInfo file in files)
             {
@@ -180,7 +184,7 @@ namespace easySaveV3
 
                 UpdateStatefile(); //Call of the function to start the state file system
 
-                string test = Path.GetExtension(tempPath);               
+                string test = Path.GetExtension(tempPath);
 
                 if (ConfH.GetAllExtToEncrypt(test))
                 {
@@ -190,16 +194,18 @@ namespace easySaveV3
                 else
                 {
                     //MessageBox.Show("non");
-                    file.CopyTo(tempPath, true); //Function that allows you to copy the file to its new folder.
+                    long fileSizeInKB = file.Length / 1024;
+                    if (MAX_SIZE_LIMIT_IN_KB == 0 || (MAX_SIZE_LIMIT_IN_KB > 0 && fileSizeInKB <= MAX_SIZE_LIMIT_IN_KB))
+                        file.CopyTo(tempPath, true); //Function that allows you to copy the file to its new folder.
                 }
 
                 nbfiles++;
                 size += file.Length;
-                
-                SizeLeft100 = (Int64.Parse(ConfH.GetParticularKeyValue("RemainingLength"))*100)/ Int64.Parse(totalSize.ToString());
+
+                SizeLeft100 = (Int64.Parse(ConfH.GetParticularKeyValue("RemainingLength")) * 100) / Int64.Parse(totalSize.ToString());
                 ConfH.AddUpdateAppSettings("RemainingLength100", SizeLeft100.ToString());
-                
-                
+
+
                 //MessageBox.Show(SizeLeft100.ToString());
                 //Thread.Sleep(1000);
 
@@ -209,13 +215,6 @@ namespace easySaveV3
                 {
                     SleepUntilProtocol();
                 }
-
-
-
-
-
-
-
             }
 
             // If copying subdirectories, copy them and their contents to new location.
@@ -464,10 +463,10 @@ namespace easySaveV3
 
                 delegateLoad loadsaveDeleg = CompleteSave;
 
-                Thread loadsaveThread = new Thread(() => loadsaveDeleg(backup.sourceRepository, backup.targetRepository, true, false));
+                loadsaveThread = new Thread(() => loadsaveDeleg(backup.sourceRepository, backup.targetRepository, true, false));
 
                 loadsaveThread.Start();
-                
+
 
                 //CompleteSave(backup.sourceRepository, backup.targetRepository, true, false); //Calling the function to run the full backup
                 UpdateLogFile(backup.nameToSave, backup.sourceRepository, backup.targetRepository); //Call of the function to start the modifications of the log file
@@ -506,7 +505,7 @@ namespace easySaveV3
 
             foreach (Process process in processes)
             {
-                
+
                 foreach (string nameOBL in namesOfBlackList)
                 {
                     int found = 0;
@@ -530,7 +529,7 @@ namespace easySaveV3
             {
                 Thread.Sleep(1000);
             }
-            
+
         }
 
 

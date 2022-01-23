@@ -5,15 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:easySaveV2"
         mc:Ignorable="d"
-        Title="SettingPage" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+        Title="SettingPage" Height="450" Width="800" WindowStartupLocation="CenterScreen" Activated="Window_Activated">
 
     <Grid HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0" Width="800">
         <TextBlock x:Name="SettingLabel"  HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontSize="30" TextDecorations="Underline">Settings</TextBlock>
-        <Button x:Name="BlBoutton" Click="Open_blacklist" Content="Black List Sofware" HorizontalAlignment="Center" Margin="275,194,275,0" VerticalAlignment="Top" Width="250" Height="25" FontSize="15"/>
-        <Button x:Name="ExBoutton" Content="Extension" HorizontalAlignment="Center" Margin="0,300,0,0" VerticalAlignment="Top" Width="250" Height="25" FontSize="15" Click="ExBoutton_Click"/>
+        <Button x:Name="BlBoutton" Click="Open_blacklist" Content="Black List Sofware" HorizontalAlignment="Center" Margin="275,155,275,0" VerticalAlignment="Top" Width="250" Height="25" FontSize="15"/>
+        <Button x:Name="ExBoutton" Content="Extension" HorizontalAlignment="Center" Margin="275,251,275,0" VerticalAlignment="Top" Width="250" Height="25" FontSize="15" Click="ExBoutton_Click"/>
         <Button x:Name="Setting_ReturnButton" Content="Return" HorizontalAlignment="Left" Margin="10,380,0,0" VerticalAlignment="Top" Width="90" Height="25"  Click="Setting_ReturnButton_Click" FontSize="16"/>
-        <Button x:Name="CryptBoutton" Click="CryptBoutton_click" Content="CryptoSofware settings" HorizontalAlignment="Center" Margin="275,247,275,0" VerticalAlignment="Top" Width="250" Height="25" FontSize="15"/>
-        <Button x:Name="LangBoutton" Click="LangBoutton_click" Content="Language" HorizontalAlignment="Center" Margin="275,142,275,0" VerticalAlignment="Top" Width="250" Height="25" FontSize="15"/>
+        <Button x:Name="CryptBoutton" Click="CryptBoutton_click" Content="CryptoSofware settings" HorizontalAlignment="Center" Margin="275,203,275,0" VerticalAlignment="Top" Width="250" Height="25" FontSize="15"/>
+        <Button x:Name="LangBoutton" Click="LangBoutton_click" Content="Language" HorizontalAlignment="Center" Margin="275,104,275,0" VerticalAlignment="Top" Width="250" Height="25" FontSize="15"/>
+        <TextBox x:Name="txtFileSize" HorizontalAlignment="Left" Height="18" Margin="415,303,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="44" HorizontalContentAlignment="Center"/>
+        <Label Content="Max. File Size Limit (KB): " HorizontalAlignment="Left" Margin="275,303,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnSaveLimit" Content="Save" HorizontalAlignment="Left" Margin="464,301,0,0" VerticalAlignment="Top" Width="61" Click="btnSaveLimit_Click"/>
 
     </Grid>
 </Window>
